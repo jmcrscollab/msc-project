@@ -192,9 +192,13 @@ function createHoT(container, data,sheet_name) {
 				this_exp.conditions = this.getData();
 			} else {
 				if(typeof(this_exp.all_stims[sheet_name]) !== "undefined"){
-					this_exp.all_stims[sheet_name] = this.getData();
+					this_exp.all_stims[sheet_name] = Papa.unparse(
+            this.getData()
+          );
 				}	else if(typeof(this_exp.all_procs[sheet_name]) !== "undefined"){
-					this_exp.all_procs[sheet_name] = this.getData();
+					this_exp.all_procs[sheet_name] = Papa.unparse(
+            this.getData()
+          );
 				}	else {
 					alert("error - " + sheet_name + " not found in " + experiment);
 				}
@@ -221,9 +225,7 @@ function createHoT(container, data,sheet_name) {
       var coords        = this.getSelected();
       var column        = this.getDataAtCell(0,coords[1]);
       var thisCellValue = this.getDataAtCell(coords[0],coords[1]);
-      console.dir(column);
-      console.dir(thisCellValue);
-      console.dir(sheet_name);
+
       thisCellValue = thisCellValue == null ? thisCellValue = "" : thisCellValue;
       column        = column        == null ? column        = "" : column;
       window['Current HoT Coordinates'] = coords;

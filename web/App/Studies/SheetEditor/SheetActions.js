@@ -224,7 +224,7 @@ $("#new_experiment_button").on("click",function(){
 
 $("#new_proc_button").on("click",function(){
   var proc_template = default_experiment.all_procs["procedure_1.csv"];
-	bootbox.prompt("What would you like the name of the new procedure sheet to be?",function(new_proc_name){
+	bootbox.prompt("What would you like the name of the new <b>procedure</b> sheet to be?",function(new_proc_name){
 		var experiment = $("#experiment_list").val();
 		var this_exp   = master_json.exp_mgmt.experiments[experiment];
 		var current_procs = Object.keys(this_exp.all_procs);
@@ -232,13 +232,16 @@ $("#new_proc_button").on("click",function(){
 			bootbox.alert("You already have a procedure sheet with that name");
 		} else {
 			new_proc_name = new_proc_name.replace(".csv","") + ".csv";
-
-			master_json.exp_mgmt.experiments[experiment].all_procs[new_proc_name] = proc_template;
+			this_exp.all_procs[new_proc_name] = proc_template;
 			$("#proc_select").append($('<option>', {
 				text : new_proc_name
 			}));
 			$("#proc_select").val(new_proc_name);
-			createExpEditorHoT(this_exp.all_procs[new_proc_name],"procedure",new_proc_name);	//sheet_name
+			createExpEditorHoT(
+        this_exp.all_procs[new_proc_name],
+        "procedure",
+        new_proc_name
+      );
 		}
 	});
 });
@@ -252,14 +255,24 @@ $("#new_stim_button").on("click",function(){
 		if(current_stims.indexOf(new_sheet_name) !== -1){
 			bootbox.alert("You already have a <b>Stimuli</b> sheet with that name");
 		} else {
-			new_sheet_name = new_sheet_name.replace(".csv","") + ".csv";
 
-			master_json.exp_mgmt.experiments[experiment].all_stims[new_sheet_name] = stim_template;
+      new_sheet_name = new_sheet_name.replace(".csv","") + ".csv";
+			this_exp.all_stims[new_sheet_name] = stim_template;
 			$("#stim_select").append($('<option>', {
 				text : new_sheet_name
 			}));
 			$("#stim_select").val(new_sheet_name);
-			createExpEditorHoT(this_exp.all_stims[new_sheet_name],"stimuli",new_sheet_name);	//sheet_name
+
+      createExpEditorHoT(
+        this_exp.all_stims[new_sheet_name],
+        "stimuli",
+        new_sheet_name
+      );
+
+      /*
+      alert("hardy");
+
+			*/
 		}
 	});
 });
@@ -267,7 +280,11 @@ $("#new_stim_button").on("click",function(){
 $("#proc_select").on("change",function(){
 	var experiment = $("#experiment_list").val();
 	var this_exp   = master_json.exp_mgmt.experiments[experiment];
-	createExpEditorHoT(this_exp.all_procs[this.value], "procedure", this.value);
+	createExpEditorHoT(
+    this_exp.all_procs[this.value],
+    "procedure",
+    this.value
+  );
 });
 
 $("#rename_exp_btn").on("click",function(){
@@ -363,7 +380,11 @@ $("#rename_proc_button").on("click",function(){
   			}));
   			$("#proc_select").val(new_proc_name);
   			$('#proc_select option[value="' + current_proc + '"]').remove();
-  			createExpEditorHoT(this_exp.all_procs[new_proc_name],"procedure",new_proc_name);
+  			createExpEditorHoT(
+          this_exp.all_procs[new_proc_name],
+          "procedure",
+          new_proc_name
+        );
   		}
     }
 	});
@@ -398,7 +419,11 @@ $("#rename_stim_button").on("click",function(){
 
   			$('#stim_select option[value="' + current_stim + '"]').remove();
 
-  			createExpEditorHoT(this_exp.all_stims[new_sheet_name],"stimuli",new_sheet_name);
+  			createExpEditorHoT(
+          this_exp.all_stims[new_sheet_name],
+          "stimuli",
+          new_sheet_name
+        );
   		}
     }
 	});
@@ -437,7 +462,7 @@ $("#run_btn").on("click",function(){
 
 							var this_url = window.location.href.split("/" + Collector.version)[0] +
 																												"/App/";
-							window.open(this_url  	+ "RunStudy.html?platform=github&" +
+							window.open(this_url  	+ "Run.html?platform=github&" +
 													"location=" + $("#experiment_list").val() + "&" +
 													"name="     + master_json.exp_mgmt.exp_condition + "&" +
 													"dropbox="  + exp_json.location,"_blank");
@@ -475,22 +500,30 @@ $("#run_btn").on("click",function(){
 				});
         */
 			}
-      if(github_json.organization !== ""){
-        var organization = github_json.organization;
+      if(typeof(github_json) == "undefined"){
+        try{
+          github_json = JSON.parse(Collector.electron.git.load_master());
+          var organization = github_json.organization;
+          var repository   = github_json.repository;
+        } catch(error){
+          organization = "Your github json seems broken";
+          repository = "";
+        }
       } else {
-        var organization = github_json.username;
+        var organization = github_json.organization;
+        var repository   = github_json.repository;
       }
-      var github_url =  "https://"             +
-                        organization           +
-                        ".github.io"           + "/" +
-                        github_json.repository + "/" +
-                        "web"                  + "/" +
-                        "App"                  + "/" +
-                        "RunStudy.html?platform=github&"    +
-												"location="                         +
-                          $("#experiment_list").val() + "&" +
-												"name="                             +
-                          conditions[0].name;
+
+      var github_url =  "https://" +
+        organization +
+        ".github.io" + "/" +
+        repository   + "/" +
+        "web"        + "/" +
+        "App"        + "/" +
+        "Run.html?platform=github&" +
+        "location=" +
+        $("#experiment_list").val() + "&" +
+        "name=" + conditions[0].name;
 
 
 			bootbox.dialog({
@@ -501,7 +534,7 @@ $("#run_btn").on("click",function(){
 						label: "Run",
 						className: 'btn-primary',
 						callback: function(){
-              window.open("RunStudy.html?platform=localhost&" +
+              window.open("Run.html?platform=localhost&" +
 													"location=" + $("#experiment_list").val() + "&" +
 													"name=" + $("#select_condition").val(),
                           "_blank");
@@ -511,7 +544,7 @@ $("#run_btn").on("click",function(){
 						label: "Preview Local",
 						className: 'btn-info',
 						callback: function(){
-							window.open("RunStudy.html?platform=preview&" +
+							window.open("Run.html?platform=preview&" +
 													"location=" + $("#experiment_list").val() + "&" +
 													"name=" + $("#select_condition").val(),"_blank");
 						}
@@ -520,7 +553,7 @@ $("#run_btn").on("click",function(){
 						label: "Preview Online",
 						className: 'btn-info',
 						callback: function(){
-							window.open("RunStudy.html?platform=onlinepreview&" +
+							window.open("Run.html?platform=onlinepreview&" +
 													"location=" + $("#experiment_list").val() + "&" +
 													"name=" + $("#select_condition").val(),"_blank");
 						}
@@ -542,7 +575,7 @@ $("#run_btn").on("click",function(){
             github_json.repository              + "/" +
             "web"                               + "/" +
             "App"                               + "/" +
-            "RunStudy.html?platform=github&"    +
+            "Run.html?platform=github&"    +
 						"location="                         +
               $("#experiment_list").val() + "&" +
 						"name="                             +
@@ -815,6 +848,7 @@ $("#save_btn").on("click", function(){
   						)
               update_master_json();
 
+
               var git_json_response = Collector.electron.git.save_master();
               var write_response = Collector.electron.fs.write_file(
                 "",
@@ -837,7 +871,7 @@ $("#save_btn").on("click", function(){
                   .then(function(returned_link){
                     this_exp.location = returned_link.url;
                     dbx_obj.new_upload({path: "/Experiments/"+experiment+".json", contents: JSON.stringify(this_exp), mode:'overwrite'},function(location_saved){
-                        $("#run_link").attr("href","../"+ master_json.exp_mgmt.version + "/RunStudy.html?location="+this_exp.location);
+                        $("#run_link").attr("href","../"+ master_json.exp_mgmt.version + "/Run.html?location="+this_exp.location);
                         update_master_json();
                       },function(error){
                         Collector.custom_alert("check console for error saving location");
@@ -891,7 +925,11 @@ $("#save_btn").on("click", function(){
 $("#stim_select").on("change",function(){
 	var experiment = $("#experiment_list").val();
 	var this_exp   = master_json.exp_mgmt.experiments[experiment];
-	createExpEditorHoT(this_exp.all_stims[this.value], "stimuli", this.value);
+	createExpEditorHoT(
+    this_exp.all_stims[this.value],
+    "stimuli",
+    this.value
+  );
 });
 
 $("#upload_default_exp_btn").on("click",function(){
