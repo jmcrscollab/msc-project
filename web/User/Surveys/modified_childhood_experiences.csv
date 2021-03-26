@@ -1,0 +1,4 @@
+item_name,text,type,answers,values,score: mce_total,optional,btn_width,
+Instructions1,<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>,instruct,,,,,,
+mce_1,"Did a parent or other adult in the household often or very often…<br> Swear at you, insult you, put you down, or humiliate you?Act in a way that made you afraid that you might be physically hurt?",likert,Never True|Rarely True|Sometimes True|Often True|Very Often True,0|1|2|3|4,1,No,100px,
+,,,,,,,,
