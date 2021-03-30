@@ -232,12 +232,14 @@
           "score: mce_total",
           "optional",
           "btn_width",
+          "logic",
           null
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you:</span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'>Choose one response that best describes how strongly each item applies to you. <br> Prior to your 18th birthday:</span></span>",
           "instruct",
+          "",
           "",
           "",
           "",
@@ -247,160 +249,125 @@
         ],
         [
           "mce_1",
-          "Did a parent or other adult in the household often or very often…<br> Swear at you, insult you, put you down, or humiliate you?Act in a way that made you afraid that you might be physically hurt?",
+          "1. Did a parent or other adult in the household often or very often…<br> Swear at you, insult you, put you down, or humiliate you? Or <br> Act in a way that made you afraid that you might be physically hurt?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
           "0|1|2|3|4",
-          "1",
+          "0|1|2|3|4",
           "No",
           "100px",
-          null
-        ],
-        [
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          null
-        ]
-      ],
-      "barret_impusiveness_scale.csv": [
-        [
-          "item_name",
-          "text",
-          "type",
-          "answers",
-          "values",
-          "score: mce_total",
-          "optional",
-          "btn_width",
-          "reversed?",
-          "btn_width",
-          null
-        ],
-        [
-          "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>For the following items, please reply with 1 (rarely/never), 2 (occasionally), 3 (often) or 4 (almost always/always) </span></span>",
-          "instruct",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
           "",
           null
         ],
         [
-          "barratt1",
-          "1. I plan tasks carefully",
+          "mce_2",
+          "2. Did a parent or other adult in the household often or very often… <br> Push, grab, slap or throw something at you? Or <br> Ever hit you so hard that you had marks or were injured?",
           "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "4|3|2|1",
-          "No",
-          "100px",
-          "Reversed",
-          "100px",
-          null
-        ],
-        [
-          "barratt2",
-          "2. I do things without thinking",
-          "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "1|2|3|4",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
           "No",
           "100px",
           "",
-          "100px",
           null
         ],
         [
-          "barratt3",
-          "3. I don’t “pay attention”",
+          "mce_3",
+          "3. Did you often or very often feel that…<br> No one in your family loved you or thought you were important or special? Or Your family didn't look out for each other, feel close to each other, or support each other?",
           "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "1|2|3|4",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
           "No",
           "100px",
           "",
-          "100px",
           null
         ],
         [
-          "barratt4",
-          "4. I am self-controlled",
+          "mce_4",
+          "4. Did you often or very often feel that… <br> You didn't have enough to eat, had to wear dirty clothes, and had no one to protect you? Or <br> Your parents were too drunk or high to take care of you or take you to the doctor if you needed it?",
           "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "4|3|2|1",
-          "No",
-          "100px",
-          "Reversed",
-          "100px",
-          null
-        ],
-        [
-          "barratt5",
-          "5. I concentrate easily",
-          "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "4|3|2|1",
-          "No",
-          "100px",
-          "Reversed",
-          "100px",
-          null
-        ],
-        [
-          "barratt6",
-          "6. I am a careful thinker",
-          "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "4|3|2|1",
-          "No",
-          "100px",
-          "Reversed",
-          "100px",
-          null
-        ],
-        [
-          "barratt7",
-          "7. I say things without thinking",
-          "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "1|2|3|4",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
           "No",
           "100px",
           "",
-          "100px",
           null
         ],
         [
-          "barratt8",
-          "8. I act on the spur of the moment",
+          "mce_5",
+          "5. Was a family member ever lost to you through divorce, abandonment, or other reason?",
           "likert",
-          "Rarely/Never|Occasionally|Often|Almost always/Always",
-          "1|2|3|4",
-          "1|2|3|4",
+          "No|Yes",
+          "0|1",
+          "0|4",
+          "No",
+          "100px",
+          "VALUE OF 4 AS IT IS EXTREME!",
+          null
+        ],
+        [
+          "mce_6",
+          "6. Was your mother or stepmother: <br> Often or very often pushed, grabbed, slapped, or had something thrown at her? Or <br> Sometimes, often, or very often kicked, bitten, hit with a fist or something hard? Or <br> Ever repeatedly hit over at least a few minutes or threatened with a gun or knife?",
+          "likert",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
           "No",
           "100px",
           "",
-          "100px",
           null
         ],
         [
-          null,
+          "mce_7",
+          "7. How frequently did anyone in your household drink too much alcohol?",
+          "likert",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          "LOGIC REQUIRED",
+          null
+        ],
+        [
+          "mce_8",
+          "8. How frequently did anyone in your household do street-drugs?",
+          "likert",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          "LOGIC REQUIRED",
+          null
+        ],
+        [
+          "mce_9",
+          "9. How frequently was a household member struggling with mental health problems such as depression?",
+          "likert",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          "",
+          null
+        ],
+        [
+          "mce_10",
+          "10. How frequently did household members have legal problems?",
+          "likert",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          "",
+          null
+        ],
+        [
           null,
           null,
           null,
@@ -1274,6 +1241,151 @@
           null,
           null
         ]
+      ],
+      "barratt-impulsiveness.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "score: mce_total",
+          "optional",
+          "btn_width",
+          "reversed?",
+          "btn_width",
+          null
+        ],
+        [
+          "Instructions1",
+          "<span style='color:#006699'><span style='font-size:20px'>For the following items, please reply with 1 (rarely/never), 2 (occasionally), 3 (often) or 4 (almost always/always) </span></span>",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "barratt1",
+          "1. I plan tasks carefully",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt2",
+          "2. I do things without thinking",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1|2|3|4",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          "barratt3",
+          "3. I don’t “pay attention”",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1|2|3|4",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          "barratt4",
+          "4. I am self-controlled",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt5",
+          "5. I concentrate easily",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt6",
+          "6. I am a careful thinker",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt7",
+          "7. I say things without thinking",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1|2|3|4",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          "barratt8",
+          "8. I act on the spur of the moment",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1|2|3|4",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
       ]
     },
     "default_surveys": {
@@ -1291,8 +1403,7 @@
           "Score: Imagination",
           "Score: Attention_to_detail",
           "Optional",
-          "btn_width",
-          null
+          "btn_width"
         ],
         [
           "Instructions1",
@@ -1307,8 +1418,7 @@
           "",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "AQ1",
@@ -1323,8 +1433,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ2",
@@ -1339,8 +1448,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ3",
@@ -1355,8 +1463,7 @@
           "r1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ4",
@@ -1371,8 +1478,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ5",
@@ -1387,8 +1493,7 @@
           "",
           "1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ6",
@@ -1403,8 +1508,7 @@
           "",
           "1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ7",
@@ -1419,8 +1523,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ8",
@@ -1435,8 +1538,7 @@
           "r1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ9",
@@ -1451,8 +1553,7 @@
           "",
           "1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ10",
@@ -1467,8 +1568,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ11",
@@ -1483,8 +1583,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ12",
@@ -1499,8 +1598,7 @@
           "",
           "1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ13",
@@ -1515,8 +1613,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ14",
@@ -1531,8 +1628,7 @@
           "r1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ15",
@@ -1547,8 +1643,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ16",
@@ -1563,8 +1658,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ17",
@@ -1579,8 +1673,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ18",
@@ -1595,8 +1688,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ19",
@@ -1611,8 +1703,7 @@
           "",
           "1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ20",
@@ -1627,8 +1718,7 @@
           "1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ21",
@@ -1643,8 +1733,7 @@
           "1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ22",
@@ -1659,8 +1748,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ23",
@@ -1675,8 +1763,7 @@
           "",
           "1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ24",
@@ -1691,8 +1778,7 @@
           "r1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ25",
@@ -1707,8 +1793,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ26",
@@ -1723,8 +1808,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ27",
@@ -1739,8 +1823,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ28",
@@ -1755,8 +1838,7 @@
           "",
           "r1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ29",
@@ -1771,8 +1853,7 @@
           "",
           "r1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ30",
@@ -1787,8 +1868,7 @@
           "",
           "r1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ31",
@@ -1803,8 +1883,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ32",
@@ -1819,8 +1898,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ33",
@@ -1835,8 +1913,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ34",
@@ -1851,8 +1928,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ35",
@@ -1867,8 +1943,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ36",
@@ -1883,8 +1958,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ37",
@@ -1899,8 +1973,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ38",
@@ -1915,8 +1988,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ39",
@@ -1931,8 +2003,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ40",
@@ -1947,8 +2018,7 @@
           "r1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ41",
@@ -1963,8 +2033,7 @@
           "1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ42",
@@ -1979,8 +2048,7 @@
           "1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ43",
@@ -1995,8 +2063,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ44",
@@ -2011,8 +2078,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ45",
@@ -2027,8 +2093,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ46",
@@ -2043,8 +2108,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ47",
@@ -2059,8 +2123,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ48",
@@ -2075,8 +2138,7 @@
           "",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ49",
@@ -2091,8 +2153,7 @@
           "",
           "r1",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
           "AQ50",
@@ -2107,12 +2168,10 @@
           "r1",
           "",
           "No",
-          "100px",
-          null
+          "100px"
         ],
         [
-          "",
-          null
+          ""
         ]
       ],
       "consent_sheet_uor.csv": [
