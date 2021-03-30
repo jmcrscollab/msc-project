@@ -1105,6 +1105,525 @@
           "",
           null
         ]
+      ],
+      "social_media_disorder.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "score: mce_total",
+          "optional",
+          "btn_width",
+          "original value",
+          ""
+        ],
+        [
+          "Instructions1",
+          "<span style='color:#006699'><span style='font-size:20px'>During the past year, have you … </span></span>",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "recoded1",
+          "… regularly neglected other activities (e.g. hobbies, sport) because you wanted to use social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn24",
+          ""
+        ],
+        [
+          "recoded2",
+          "… often found it difficult not to look at messages on social media when you were doing something else (e.g. school work)?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn1",
+          ""
+        ],
+        [
+          "recoded3",
+          "… often used social media so you didn't have to think about unpleasant things?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn14",
+          ""
+        ],
+        [
+          "recoded4",
+          "… often felt tense or restless if you weren't able to look at your messages on social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn7",
+          ""
+        ],
+        [
+          "recoded5",
+          "… tried to spend less time on social media, but failed?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn11",
+          ""
+        ],
+        [
+          "recoded6",
+          "… felt the need to check messages on social media more and more often?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn5",
+          ""
+        ],
+        [
+          "recoded7",
+          "… tried to reduce your use of social media, but failed?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn10",
+          ""
+        ],
+        [
+          "recoded8",
+          "… often sat waiting until something happens on social media again?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn3",
+          ""
+        ],
+        [
+          "recoded9",
+          "… regularly lied to your parents or friends about the amount of time you spend on social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn19",
+          ""
+        ],
+        [
+          "recoded10",
+          "… regularly felt angry or frustrated if you weren't able to use social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn8",
+          ""
+        ],
+        [
+          "recoded11",
+          "… often used social media secretly?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn21",
+          ""
+        ],
+        [
+          "recoded12",
+          "… been unable to stop using social media, even though others told you that you really should?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn12",
+          ""
+        ],
+        [
+          "recoded13",
+          "… regularly had no interest in hobbies or other activities because you would rather use social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn23",
+          ""
+        ],
+        [
+          "recoded14",
+          "… often felt bad when you could not use social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn9",
+          ""
+        ],
+        [
+          "recoded15",
+          "… often used social media to escape from negative feelings?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn15",
+          ""
+        ],
+        [
+          "recoded16",
+          "… had serious conflict with your parent(s) and sibling(s) because of your social media use?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn26",
+          ""
+        ],
+        [
+          "recoded17",
+          "… had serious problems at school or at work because you were spending too much time on social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn25",
+          ""
+        ],
+        [
+          "recoded18",
+          "… regularly found that you can't think of anything else but the moment that you will be able to use social media again?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn2",
+          ""
+        ],
+        [
+          "recoded19",
+          "… regularly had arguments with others because of your social media use?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn18",
+          ""
+        ],
+        [
+          "recoded20",
+          "…jeopardised or lost an important friendship or relationship because you were spending too much time on social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn27",
+          ""
+        ],
+        [
+          "recoded21",
+          "… regularly felt dissatisfied because you wanted to spend more time on social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn6",
+          ""
+        ],
+        [
+          "recoded22",
+          "… regularly used social media to take your mind off your problems?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn13",
+          ""
+        ],
+        [
+          "recoded23",
+          "… regularly not had enough sleep because you were using social media too late at night?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn17",
+          ""
+        ],
+        [
+          "recoded24",
+          "… regularly devoted no attention to people around you (e.g. family or friends) because you were using social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn22",
+          ""
+        ],
+        [
+          "recoded25",
+          "… felt the need to use social media more and more often?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn4",
+          ""
+        ],
+        [
+          "recoded26",
+          "… regularly hidden your social media use from others?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn20",
+          ""
+        ],
+        [
+          "recoded27",
+          "… often not paid attention at school, while doing homework or at work because you were using social media?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|1",
+          "No",
+          "100px",
+          "sn16",
+          ""
+        ],
+        [
+          "recoded28",
+          "How long after you wake up do you check social media? Please enter an answer in MINUTES. <br> If you do NOT own any social media accounts, please enter 10000",
+          "number",
+          "",
+          "",
+          "",
+          "No",
+          "",
+          "sn28",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "audit.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "score: mce_total",
+          "optional",
+          "btn_width",
+          ""
+        ],
+        [
+          "Instructions1",
+          "<span style='color:#006699'><span style='font-size:20px'>For the following items, please reply with 1 (rarely/never), 2 (occasionally), 3 (often) or 4 (almost always/always) </span></span>",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "audit1",
+          "1. How often do you have a drink containing alcohol?",
+          "likert",
+          "Never|Monthly or less|Two to four times a month|Two to three times a week|Four or more times a week",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit2",
+          "2. How many drinks containing alcohol do you have on a typical day when you are drinking?",
+          "likert",
+          "1 or 2|3 or 4|5 or 6|7 to 9|10 or more",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit3",
+          "3. How often do you have six or more drinks on one occasion?",
+          "likert",
+          "Never|Less than monthly|Monthly|Weekly|Daily or almost daily",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit4",
+          "4. How often during the last year have you found that you were not able to stop drinking once you had started?",
+          "likert",
+          "Never|Less than monthly|Monthly|Weekly|Daily or almost daily",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit5",
+          "5. How often during the last year have you failed to do what was normally expected from you because of drinking?",
+          "likert",
+          "Never|Less than monthly|Monthly|Weekly|Daily or almost daily",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit6",
+          "6. How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?",
+          "likert",
+          "Never|Less than monthly|Monthly|Weekly|Daily or almost daily",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit7",
+          "7. How often during the last year have you had a feeling of guilt or remorse after drinking?",
+          "likert",
+          "Never|Less than monthly|Monthly|Weekly|Daily or almost daily",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit8",
+          "8. How often during the last year have you been unable to remember what happened the night before because you had been drinking?",
+          "likert",
+          "Never|Less than monthly|Monthly|Weekly|Daily or almost daily",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit9",
+          "9. Have you or someone else been injured as a result of your drinking?",
+          "likert",
+          "No|Yes, but not in the last year|Yes, during the last year",
+          "0|2|4",
+          "0|2|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "audit10",
+          "10. Has a relative, or friend, or a doctor or other health worker been concerned about your drinking or suggested you cut down?",
+          "likert",
+          "No|Yes, but not in the last year|Yes, during the last year",
+          "0|2|4",
+          "0|2|4",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
       ]
     },
     "default_surveys": {
@@ -1122,7 +1641,8 @@
           "Score: Imagination",
           "Score: Attention_to_detail",
           "Optional",
-          "btn_width"
+          "btn_width",
+          null
         ],
         [
           "Instructions1",
@@ -1137,7 +1657,8 @@
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "AQ1",
@@ -1152,7 +1673,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ2",
@@ -1167,7 +1689,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ3",
@@ -1182,7 +1705,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ4",
@@ -1197,7 +1721,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ5",
@@ -1212,7 +1737,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ6",
@@ -1227,7 +1753,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ7",
@@ -1242,7 +1769,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ8",
@@ -1257,7 +1785,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ9",
@@ -1272,7 +1801,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ10",
@@ -1287,7 +1817,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ11",
@@ -1302,7 +1833,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ12",
@@ -1317,7 +1849,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ13",
@@ -1332,7 +1865,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ14",
@@ -1347,7 +1881,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ15",
@@ -1362,7 +1897,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ16",
@@ -1377,7 +1913,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ17",
@@ -1392,7 +1929,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ18",
@@ -1407,7 +1945,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ19",
@@ -1422,7 +1961,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ20",
@@ -1437,7 +1977,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ21",
@@ -1452,7 +1993,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ22",
@@ -1467,7 +2009,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ23",
@@ -1482,7 +2025,8 @@
           "",
           "1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ24",
@@ -1497,7 +2041,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ25",
@@ -1512,7 +2057,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ26",
@@ -1527,7 +2073,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ27",
@@ -1542,7 +2089,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ28",
@@ -1557,7 +2105,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ29",
@@ -1572,7 +2121,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ30",
@@ -1587,7 +2137,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ31",
@@ -1602,7 +2153,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ32",
@@ -1617,7 +2169,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ33",
@@ -1632,7 +2185,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ34",
@@ -1647,7 +2201,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ35",
@@ -1662,7 +2217,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ36",
@@ -1677,7 +2233,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ37",
@@ -1692,7 +2249,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ38",
@@ -1707,7 +2265,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ39",
@@ -1722,7 +2281,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ40",
@@ -1737,7 +2297,8 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ41",
@@ -1752,7 +2313,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ42",
@@ -1767,7 +2329,8 @@
           "1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ43",
@@ -1782,7 +2345,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ44",
@@ -1797,7 +2361,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ45",
@@ -1812,7 +2377,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ46",
@@ -1827,7 +2393,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ47",
@@ -1842,7 +2409,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ48",
@@ -1857,7 +2425,8 @@
           "",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ49",
@@ -1872,7 +2441,8 @@
           "",
           "r1",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
           "AQ50",
@@ -1887,10 +2457,12 @@
           "r1",
           "",
           "No",
-          "100px"
+          "100px",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ],
       "consent_sheet_uor.csv": [
