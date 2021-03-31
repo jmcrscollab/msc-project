@@ -233,6 +233,7 @@
           "optional",
           "btn_width",
           "logic",
+          "Checkbox_",
           null
         ],
         [
@@ -245,6 +246,7 @@
           "",
           "",
           "",
+          null,
           null
         ],
         [
@@ -257,6 +259,7 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
@@ -269,6 +272,7 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
@@ -281,6 +285,7 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
@@ -293,6 +298,7 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
@@ -305,6 +311,7 @@
           "No",
           "100px",
           "VALUE OF 4 AS IT IS EXTREME!",
+          null,
           null
         ],
         [
@@ -317,6 +324,7 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
@@ -329,6 +337,7 @@
           "No",
           "100px",
           "LOGIC REQUIRED",
+          "use checkbox",
           null
         ],
         [
@@ -341,6 +350,7 @@
           "No",
           "100px",
           "LOGIC REQUIRED",
+          "use checkbox",
           null
         ],
         [
@@ -353,6 +363,7 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
@@ -365,9 +376,11 @@
           "No",
           "100px",
           "",
+          null,
           null
         ],
         [
+          null,
           null,
           null,
           null,
@@ -873,7 +886,7 @@
           "0|2|4",
           "0|2|4",
           "No",
-          "100px",
+          "166px",
           ""
         ],
         [
@@ -884,7 +897,7 @@
           "0|2|4",
           "0|2|4",
           "No",
-          "100px",
+          "166px",
           ""
         ],
         [
@@ -1249,7 +1262,7 @@
           "type",
           "answers",
           "values",
-          "score: mce_total",
+          "score:barratt_total",
           "optional",
           "btn_width",
           "reversed?",
@@ -1275,7 +1288,7 @@
           "likert",
           "Rarely/Never|Occasionally|Often|Almost always/Always",
           "1|2|3|4",
-          "4|3|2|1",
+          "r1",
           "No",
           "100px",
           "Reversed",
@@ -1288,7 +1301,7 @@
           "likert",
           "Rarely/Never|Occasionally|Often|Almost always/Always",
           "1|2|3|4",
-          "1|2|3|4",
+          "1",
           "No",
           "100px",
           "",
@@ -1301,7 +1314,7 @@
           "likert",
           "Rarely/Never|Occasionally|Often|Almost always/Always",
           "1|2|3|4",
-          "1|2|3|4",
+          "1",
           "No",
           "100px",
           "",
@@ -1314,7 +1327,7 @@
           "likert",
           "Rarely/Never|Occasionally|Often|Almost always/Always",
           "1|2|3|4",
-          "4|3|2|1",
+          "r1",
           "No",
           "100px",
           "Reversed",
@@ -1327,7 +1340,7 @@
           "likert",
           "Rarely/Never|Occasionally|Often|Almost always/Always",
           "1|2|3|4",
-          "4|3|2|1",
+          "r1",
           "No",
           "100px",
           "Reversed",
@@ -1338,6 +1351,151 @@
           "barratt6",
           "6. I am a careful thinker",
           "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "r1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt7",
+          "7. I say things without thinking",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          "barratt8",
+          "8. I act on the spur of the moment",
+          "likert",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "tester.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "score: mce_total",
+          "optional",
+          "btn_width",
+          "reversed?",
+          "btn_width",
+          null
+        ],
+        [
+          "Instructions1",
+          "<span style='color:#006699'><span style='font-size:20px'>For the following items, please reply with 1 (rarely/never), 2 (occasionally), 3 (often) or 4 (almost always/always) </span></span>",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "barratt1",
+          "1. I plan tasks carefully",
+          "date",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt2",
+          "2. I do things without thinking",
+          "dropdown",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1|2|3|4",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          "barratt3",
+          "3. I don’t “pay attention”",
+          "para",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "1|2|3|4",
+          "No",
+          "100px",
+          "",
+          "100px",
+          null
+        ],
+        [
+          "barratt4",
+          "4. I am self-controlled",
+          "radio",
+          "Rarely/Never|Occasionally|Often|Almost always/Always",
+          "1|2|3|4",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt5",
+          "5. I concentrate easily",
+          "slider",
+          "0|50",
+          "0|50",
+          "4|3|2|1",
+          "No",
+          "100px",
+          "Reversed",
+          "100px",
+          null
+        ],
+        [
+          "barratt6",
+          "6. I am a careful thinker",
+          "text",
           "Rarely/Never|Occasionally|Often|Almost always/Always",
           "1|2|3|4",
           "4|3|2|1",
