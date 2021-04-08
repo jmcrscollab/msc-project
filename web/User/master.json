@@ -1789,6 +1789,58 @@
           null,
           null
         ]
+      ],
+      "info_jf1.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "optional",
+          "side_by_side",
+          null
+        ],
+        [
+          "Instructions1",
+          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study</h2><br>\n<h2>PARTICIPANT INFORMATION SHEET </h2>\n\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n    <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-01183788523-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\nWe would be grateful if you could assist us by participating in our online study. <br>\n<br>\n<b> What is the study investigating? </b> <br>\nWe are conducting research exploring eye movements when viewing neutral or pleasant images. The purpose of the study is to determine if individual differences influence attentional behaviour. Your participation in this study will require one 30-minute session.  \n<br>\n<br>\n<b> How will my data be stored? </b> <br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n<b>Are there any risks associated with taking part?</b><br>Some of the questionnaires may include material of a sensitive nature. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. <br>\n<br>\n<b> Do I have to take part? </b> <br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. <br>\n<br>\n<b> Will I be compensated?</b><br>\n <H1>You will receive 0.5 credits through SONA.</H1><br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct <H1>([SREC OR UREC NUMBER])</H1>.<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Joe Forrest or Anthony Haffey using the details above.<br>\n<br>\nThank you for your help.",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "",
+          null
+        ]
+      ],
+      "info_jf1_sona.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "optional",
+          "side_by_side",
+          null
+        ],
+        [
+          "Instructions1",
+          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study</h2><br>\n<h2>PARTICIPANT INFORMATION SHEET </h2>\n\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n    <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-01183788523-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\nWe would be grateful if you could assist us by participating in our online study. <br>\n<br>\n<b> What is the study investigating? </b> <br>\nWe are conducting research exploring eye movements when viewing neutral or pleasant images. The purpose of the study is to determine if individual differences influence attentional behaviour. Your participation in this study will require one 30-minute session.  \n<br>\n<br>\n<b> How will my data be stored? </b> <br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n<b>Are there any risks associated with taking part?</b><br>Some of the questionnaires may include material of a sensitive nature. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. <br>\n<br>\n<b> Do I have to take part? </b> <br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. <br>\n<br>\n<b> Will I be compensated?</b><br>\n <H1>You will receive 0.5 credits through SONA.</H1><br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct <H1>([SREC OR UREC NUMBER])</H1>.<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Joe Forrest or Anthony Haffey using the details above.<br>\n<br>\nThank you for your help.",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "",
+          null
+        ]
       ]
     },
     "default_surveys": {
@@ -2693,12 +2745,13 @@
         [
           "item_name",
           "text",
-          "Type",
-          "Answers",
-          "Optional",
-          "Values",
+          "type",
+          "answers",
+          "optional",
+          "values",
           "side_by_side",
-          "btn_width"
+          "btn_width",
+          null
         ],
         [
           "Gender",
@@ -2708,27 +2761,30 @@
           "No",
           "",
           "yes",
-          "100px"
+          "100px",
+          null
         ],
         [
           "Age",
           "Age",
-          "Number",
+          "number",
           "",
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Education",
           "Education (which level are you currently in, or is the highest you've completed)",
-          "Dropdown",
+          "dropdown",
           "Some high school| High school graduate| Some college, no degree| Associate's degree| Bachelor's degree|Graduate degree (Master's, Doctorate, etc.)",
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "English_Fluency",
@@ -2738,50 +2794,56 @@
           "No",
           "",
           "yes",
-          "200px"
+          "200px",
+          null
         ],
         [
           "English_Age",
           "At what age did you start learning English? (write \"0\" if from birth)",
-          "Number",
+          "number",
           "",
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Country",
           "What is your country of residence?",
-          "Text",
+          "text",
           "",
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Handedness",
           "What is your preferred hand?",
-          "Likert",
+          "likert",
           "Left|Right|Both",
           "No",
           "",
           "yes",
-          "100px"
+          "100px",
+          null
         ],
         [
           "ethnicity",
           "If you would like to please state your ethnicity",
-          "Text",
+          "text",
           "",
           "Yes",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ],
       "empathy_quotient_40.csv": [
@@ -3301,7 +3363,8 @@
           "Answers",
           "Values",
           "Optional",
-          "side_by_side"
+          "side_by_side",
+          null
         ],
         [
           "Instructions1",
@@ -3310,7 +3373,8 @@
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Info_Accept",
@@ -3319,10 +3383,12 @@
           "Agree",
           "1",
           "No",
-          "yes"
+          "yes",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ],
       "info_sheet_uor.csv": [
@@ -3333,19 +3399,22 @@
           "answers",
           "values",
           "optional",
-          "side_by_side"
+          "side_by_side",
+          null
         ],
         [
           "Instructions1",
-          "<h2>University of Reading</h2><br>\n<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n  <tr>\n    <td>Investigator 1</td>\n    <td>Investigator1@reading.ac.uk</td>\n    <td>-phone_number-</td>\n  </tr>\n  <tr>\n    <td>Investigator 2</td>\n    <td>Investigator2@reading.ac.uk</td>\n    <td>-phone_number-</td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Researcher 1</td>\n    <td>Researcher1@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Researcher 2</td>\n    <td>Researcher2@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\n<h2>Title of Study: [Study title]</h2>\n<h1>PARTICIPANT INFORMATION SHEET </h1>\n\nWe would be grateful if you could assist us by participating in our online study [BRIEF STUDY DESCRIPTION]. <br>\n<br>\nIn the experiment you will be presented with [DESCRIPTION OF STIMULI AND PROCEDURE]. The experiment should take no longer than [MAXIMUM TIME EXPECTED]. [DESCRIPTION OF ELIGIBILITY AND EXCLUSION CRITERIA].<br>\n<br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n[DESCRIPTION OF RISKS e.g. We foresee few risks during the experiment, but you will be presented with some negative images, which may evoke an emotional response. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. However, those stimuli are widely observed in our daily life. If you are concerned about the images in the study then you may discontinue your participation at any time.]<br>\n<br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. Please feel free to ask any questions that you may have about this study at any point.<br>\n<br>\n[INFORMATION ABOUT COMPENSATION - HOW MUCH AND HOW IT WILL BE DELIVERED e.g. You will receive 0.5 credits through SONA. You will receive a £5 Amazon voucher by email. You will receive £2.50 through Prolific.]<br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct ([SREC OR UREC NUMBER]).<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Investigator1.<br>\n<br>\nEmail: Investigator1, Tel: +44-(0)118-378-XXXX.<br>\n<br>\nThank you for your help.",
+          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study</h2>\n<h2>PARTICIPANT INFORMATION SHEET </h2>\n\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n    <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-01183788523-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\nWe would be grateful if you could assist us by participating in our online study. <br>\n<br>\n<b> What is the study investigating? </b> <br>\nWe are conducting research exploring eye movements when viewing neutral or pleasant images. The purpose of the study is to determine if individual differences influence attentional behaviour. Your participation in this study will require one 30-minute session.  \n<br>\n<b> How will my data be stored? </b> <br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n<b>Are there any risks associated with taking part?</b><br>Some of the questionnaires may include material of a sensitive nature. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. <br>\n<br>\n<b> Do I have to take part? </b> <br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. <br>\n<br>\n<b> Will I be compensated?</b><br>\n You will receive 0.5 credits through SONA.You will receive £2.50 through Prolific.<br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct ([SREC OR UREC NUMBER]).<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Joe Forrest or Anthony Haffey.<br>\n<br>\nEmail: Investigator1, Tel: +44-(0)118-378-8850.<br>\n<br>\nThank you for your help.",
           "instruct",
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ]
     }
