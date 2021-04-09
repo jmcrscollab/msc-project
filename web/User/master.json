@@ -446,7 +446,7 @@
         ],
         [
           "sm1",
-          "Which of the following social media platforms do you view?",
+          "Which of the following social media platforms do you regularly visit?",
           "checkbox",
           "Facebook|Instagram|Snapchat|Tiktok|Twitter|Other (Please Specify)",
           "1|2|3|4|5|6",
@@ -458,7 +458,7 @@
         ],
         [
           "sm2",
-          "Which of the following social media platforms do you upload content to?",
+          "Which of the following social media platforms do you regularly upload content to?",
           "checkbox",
           "Facebook|Instagram|Snapchat|Tiktok|Twitter|Other (Please Specify)",
           "1|2|3|4|5|6",
@@ -1788,7 +1788,7 @@
           "No",
           "yes",
           "70%",
-          "",
+          "DELETE?",
           null
         ],
         [
@@ -1809,7 +1809,7 @@
           "checkbox",
           "Agree",
           "1",
-          "No",
+          "Yes",
           "yes",
           "70%",
           "",
