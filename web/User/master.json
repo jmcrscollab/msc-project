@@ -233,7 +233,7 @@
           "optional",
           "btn_width",
           "logic",
-          "Checkbox_",
+          "checkbox_",
           null
         ],
         [
@@ -302,19 +302,6 @@
           null
         ],
         [
-          "mce_5",
-          "5. Was a family member ever lost to you through divorce, abandonment, or other reason?",
-          "likert",
-          "No|Yes",
-          "0|1",
-          "0|4",
-          "No",
-          "100px",
-          "VALUE OF 4 AS IT IS EXTREME!",
-          null,
-          null
-        ],
-        [
           "mce_6",
           "6. Was your mother or stepmother: <br> Often or very often pushed, grabbed, slapped, or had something thrown at her? Or <br> Sometimes, often, or very often kicked, bitten, hit with a fist or something hard? Or <br> Ever repeatedly hit over at least a few minutes or threatened with a gun or knife?",
           "likert",
@@ -341,6 +328,19 @@
           null
         ],
         [
+          "mce_7a",
+          "If yes to above, Which members of your household drank too much?",
+          "checkbox",
+          "Parent|Sibling|Aunt/Uncle|Grandparent|Other",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "Yes",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
           "mce_8",
           "8. How frequently did anyone in your household do street-drugs?",
           "likert",
@@ -354,8 +354,21 @@
           null
         ],
         [
+          "mce_8a",
+          "If yes to above, Which members of your household did street drugs?",
+          "checkbox",
+          "Parent|Sibling|Aunt/Uncle|Grandparent|Other",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
+          "Yes",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
           "mce_9",
-          "9. How frequently was a household member struggling with mental health problems such as depression?",
+          "9. How frequently was a household member struggling with mental health problems such as depression, anxiety or psychosis?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
           "0|1|2|3|4",
@@ -376,6 +389,19 @@
           "No",
           "100px",
           "",
+          null,
+          null
+        ],
+        [
+          "mce_5",
+          "5. Was a family member ever lost to you through divorce, abandonment, or other reason?",
+          "likert",
+          "No|Yes",
+          "0|1",
+          "0|4",
+          "No",
+          "100px",
+          "VALUE OF 4 AS IT IS EXTREME!",
           null,
           null
         ],
@@ -408,6 +434,42 @@
         ],
         [
           "Instructions1",
+          "<span style='color:#006699'><span style='font-size:20px'>Please answer these questions about your social media use: </span></span><br>",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "sm1",
+          "Which of the following social media platforms do you view?",
+          "checkbox",
+          "Facebook|Instagram|Snapchat|Tiktok|Twitter|Other (Please Specify)",
+          "1|2|3|4|5|6",
+          "1|2|3|4|5|6",
+          "No",
+          "",
+          "",
+          ""
+        ],
+        [
+          "sm2",
+          "Which of the following social media platforms do you upload content to?",
+          "checkbox",
+          "Facebook|Instagram|Snapchat|Tiktok|Twitter|Other (Please Specify)",
+          "1|2|3|4|5|6",
+          "1|2|3|4|5|6",
+          "No",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Instructions2",
           "<span style='color:#006699'><span style='font-size:20px'>During the past year, have you … </span></span>",
           "instruct",
           "",
@@ -752,19 +814,19 @@
           "No",
           "",
           "sn28",
-          ""
+          null
         ],
         [
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       ],
       "audit.csv": [
@@ -777,18 +839,18 @@
           "score: mce_total",
           "optional",
           "btn_width",
-          ""
+          null
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> For question 1-8, please answer based on how much you drank <b> in the last 12 months </b> <br> For q9 and 10 please answer generally </span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> For question 1-8, please answer based on how much you drank <b> in the last 12 months </b> <br> For q9 and 10 please answer generally <br><br>Consider a drink to be one shot of spirit (25ml), half a pint of beer/cider (284ml) or a small glass of wine (125ml) </span></span>",
           "instruct",
           "",
           "",
           "",
           "",
           "",
-          ""
+          null
         ],
         [
           "audit1",
@@ -799,7 +861,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit2",
@@ -810,7 +872,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit3",
@@ -821,7 +883,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit4",
@@ -832,7 +894,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit5",
@@ -843,7 +905,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit6",
@@ -854,7 +916,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit7",
@@ -865,7 +927,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit8",
@@ -876,7 +938,7 @@
           "0|1|2|3|4",
           "No",
           "100px",
-          ""
+          null
         ],
         [
           "audit9",
@@ -887,7 +949,7 @@
           "0|2|4",
           "No",
           "166px",
-          ""
+          null
         ],
         [
           "audit10",
@@ -898,18 +960,18 @@
           "0|2|4",
           "No",
           "166px",
-          ""
+          null
         ],
         [
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       ],
       "pathological_narcissism.csv": [
@@ -1559,7 +1621,7 @@
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> For this set of questions, please answer based on how much you drank <b> before the first lockdown (i.e. before March 2020)</b></span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> For this set of questions, please answer based on how much you drank <b> before the first lockdown (i.e. before March 2020)</b><br><br>Consider a drink to be one shot of spirit (25ml), half a pint of beer/cider (284ml) or a small glass of wine (125ml) </span></span>",
           "instruct",
           "",
           "",
@@ -1683,7 +1745,7 @@
         ],
         [
           "Instructions1",
-          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div><h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study </h2> <br>\n<h2>Consent Form</h1>\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n  <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-01183788523-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>",
+          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div><h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study </h2> <br>\n<h2>Consent Form</h1>\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n  <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-0118 378 8850-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>",
           "instruct",
           "",
           "",
@@ -1829,7 +1891,7 @@
         ],
         [
           "Instructions1",
-          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study</h2><br>\n<h2>PARTICIPANT INFORMATION SHEET </h2>\n\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n    <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-01183788523-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\nWe would be grateful if you could assist us by participating in our online study. <br>\n<br>\n<b> What is the study investigating? </b> <br>\nWe are conducting research exploring eye movements when viewing neutral or pleasant images. The purpose of the study is to determine if individual differences influence attentional behaviour. Your participation in this study will require one 30-minute session.  \n<br>\n<br>\n<b> How will my data be stored? </b> <br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n<b>Are there any risks associated with taking part?</b><br>Some of the questionnaires may include material of a sensitive nature. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. <br>\n<br>\n<b> Do I have to take part? </b> <br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. <br>\n<br>\n<b> Will I be compensated?</b><br>\n <H1>You will receive 0.5 credits through SONA.</H1><br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct <H1>([SREC OR UREC NUMBER])</H1>.<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Joe Forrest or Anthony Haffey using the details above.<br>\n<br>\nThank you for your help.",
+          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study</h2><br>\n<h2>PARTICIPANT INFORMATION SHEET </h2>\n\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n    <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-0118 378 8850-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\nWe would be grateful if you could assist us by participating in our online study. <br>\n<br>\n<b> What is the study investigating? </b> <br>\nWe are conducting research exploring eye movements when viewing neutral or pleasant images. The purpose of the study is to determine if individual differences influence attentional behaviour. Your participation in this study will require one 30-minute session.  \n<br>\n<br>\n<b> How will my data be stored? </b> <br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n<b>Are there any risks associated with taking part?</b><br>Some of the questionnaires may include material of a sensitive nature. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. <br>\n<br>\n<b> Do I have to take part? </b> <br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. <br>\n<br>\n<b> Will I be compensated?</b><br>\n <H1>You will receive 0.5 credits through SONA.</H1><br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct <H1>([SREC OR UREC NUMBER])</H1>.<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Joe Forrest or Anthony Haffey using the details above.<br>\n<br>\nThank you for your help.",
           "instruct",
           "",
           "",
@@ -2671,8 +2733,7 @@
           "1",
           "No",
           "yes",
-          "70%",
-          null
+          "70%"
         ],
         [
           "uor_consent_3",
@@ -2745,13 +2806,12 @@
         [
           "item_name",
           "text",
-          "type",
-          "answers",
-          "optional",
-          "values",
+          "Type",
+          "Answers",
+          "Optional",
+          "Values",
           "side_by_side",
-          "btn_width",
-          null
+          "btn_width"
         ],
         [
           "Gender",
@@ -2761,30 +2821,27 @@
           "No",
           "",
           "yes",
-          "100px",
-          null
+          "100px"
         ],
         [
           "Age",
           "Age",
-          "number",
+          "Number",
           "",
           "No",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "Education",
           "Education (which level are you currently in, or is the highest you've completed)",
-          "dropdown",
+          "Dropdown",
           "Some high school| High school graduate| Some college, no degree| Associate's degree| Bachelor's degree|Graduate degree (Master's, Doctorate, etc.)",
           "No",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "English_Fluency",
@@ -2794,56 +2851,50 @@
           "No",
           "",
           "yes",
-          "200px",
-          null
+          "200px"
         ],
         [
           "English_Age",
           "At what age did you start learning English? (write \"0\" if from birth)",
-          "number",
+          "Number",
           "",
           "No",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "Country",
           "What is your country of residence?",
-          "text",
+          "Text",
           "",
           "No",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "Handedness",
           "What is your preferred hand?",
-          "likert",
+          "Likert",
           "Left|Right|Both",
           "No",
           "",
           "yes",
-          "100px",
-          null
+          "100px"
         ],
         [
           "ethnicity",
           "If you would like to please state your ethnicity",
-          "text",
+          "Text",
           "",
           "Yes",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
-          "",
-          null
+          ""
         ]
       ],
       "empathy_quotient_40.csv": [
@@ -3363,8 +3414,7 @@
           "Answers",
           "Values",
           "Optional",
-          "side_by_side",
-          null
+          "side_by_side"
         ],
         [
           "Instructions1",
@@ -3373,8 +3423,7 @@
           "",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "Info_Accept",
@@ -3383,12 +3432,10 @@
           "Agree",
           "1",
           "No",
-          "yes",
-          null
+          "yes"
         ],
         [
-          "",
-          null
+          ""
         ]
       ],
       "info_sheet_uor.csv": [
@@ -3399,22 +3446,19 @@
           "answers",
           "values",
           "optional",
-          "side_by_side",
-          null
+          "side_by_side"
         ],
         [
           "Instructions1",
-          "<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<h2>University of Reading</h2><br>\n<h2>Title of Study: Investigating attentional biases to neutral and pleasant images: An eye-tracking study</h2>\n<h2>PARTICIPANT INFORMATION SHEET </h2>\n\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n    <tr>\n    <td>Anthony Haffey</td>\n    <td>anthony.haffey@reading.ac.uk</td>\n    <td>-01183788523-</td>\n  </tr>\n  <tr>\n    <td>Chen Zhao</td>\n    <td>c.zhao5@reading.ac.uk</td>\n    <td></td>\n  </tr>\n<tr>\n    <td>Nicholas Hedger</td>\n    <td>n.hedger@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Joe Forrest</td>\n    <td>j.forrest@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\nWe would be grateful if you could assist us by participating in our online study. <br>\n<br>\n<b> What is the study investigating? </b> <br>\nWe are conducting research exploring eye movements when viewing neutral or pleasant images. The purpose of the study is to determine if individual differences influence attentional behaviour. Your participation in this study will require one 30-minute session.  \n<br>\n<b> How will my data be stored? </b> <br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n<b>Are there any risks associated with taking part?</b><br>Some of the questionnaires may include material of a sensitive nature. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. <br>\n<br>\n<b> Do I have to take part? </b> <br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. <br>\n<br>\n<b> Will I be compensated?</b><br>\n You will receive 0.5 credits through SONA.You will receive £2.50 through Prolific.<br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct ([SREC OR UREC NUMBER]).<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Joe Forrest or Anthony Haffey.<br>\n<br>\nEmail: Investigator1, Tel: +44-(0)118-378-8850.<br>\n<br>\nThank you for your help.",
+          "<h2>University of Reading</h2><br>\n<div align=\"right\">School of Psychology and Clinical Language Sciences<br>\nWhiteknights<br>\nReading RG6 6AL</div>\n<br>\n<table class=\"table\">\n  <tr>\n    <td><b>Investigator(s):</b></td>\n    <td><b>Email:</b></td>\n    <td><b>Telephone:</b></td>\n  </tr>\n  <tr>\n    <td>Investigator 1</td>\n    <td>Investigator1@reading.ac.uk</td>\n    <td>-phone_number-</td>\n  </tr>\n  <tr>\n    <td>Investigator 2</td>\n    <td>Investigator2@reading.ac.uk</td>\n    <td>-phone_number-</td>\n  </tr>\n  <tr>\n    <td><b>Researcher(s):</b></td>\n  </tr>\n  <tr>\n    <td>Researcher 1</td>\n    <td>Researcher1@reading.ac.uk</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Researcher 2</td>\n    <td>Researcher2@reading.ac.uk</td>\n    <td></td>\n  </tr>\n</table>\n\n<h2>Title of Study: [Study title]</h2>\n<h1>PARTICIPANT INFORMATION SHEET </h1>\n\nWe would be grateful if you could assist us by participating in our online study [BRIEF STUDY DESCRIPTION]. <br>\n<br>\nIn the experiment you will be presented with [DESCRIPTION OF STIMULI AND PROCEDURE]. The experiment should take no longer than [MAXIMUM TIME EXPECTED]. [DESCRIPTION OF ELIGIBILITY AND EXCLUSION CRITERIA].<br>\n<br>\nYour data will be kept confidential and securely stored, with only an anonymous number identifying it. Data collected from this study will be preserved and made available in anonymised form, so that data can be re-used by others.<br>\n<br>\n[DESCRIPTION OF RISKS e.g. We foresee few risks during the experiment, but you will be presented with some negative images, which may evoke an emotional response. Thus, the study may include a mild risk of anxiety, sadness or other emotional reactions. However, those stimuli are widely observed in our daily life. If you are concerned about the images in the study then you may discontinue your participation at any time.]<br>\n<br>\nTaking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. Please feel free to ask any questions that you may have about this study at any point.<br>\n<br>\n[INFORMATION ABOUT COMPENSATION - HOW MUCH AND HOW IT WILL BE DELIVERED e.g. You will receive 0.5 credits through SONA. You will receive a £5 Amazon voucher by email. You will receive £2.50 through Prolific.]<br>\n<br>\nThis application has been reviewed by the University Research Ethics Committee and has been given a favourable ethical opinion for conduct ([SREC OR UREC NUMBER]).<br>\n<br>\nIf you have any questions or concerns about the research, please feel free to contact Investigator1.<br>\n<br>\nEmail: Investigator1, Tel: +44-(0)118-378-XXXX.<br>\n<br>\nThank you for your help.",
           "instruct",
           "",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
-          "",
-          null
+          ""
         ]
       ]
     }
