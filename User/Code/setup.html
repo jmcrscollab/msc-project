@@ -1,0 +1,51 @@
+<script>
+/*
+* From the PEBL battery 
+*/
+parent.parent.card_lists = [{
+    gain: {
+      A: 100,   // high gains and high losses (average value of each card is low/negative) - frequent high losses
+      B: 100,   // high gains and high losses (average value of each card is low/negative) - infrequent very high losses
+      C: 50,    // low gains and lower losses (average value is positive) - frequent low losses
+      D: 50     // low gains and lower losses (average value is positive) - infrequent moderate/high losses
+    },
+    
+    /*
+    * Decks A and C
+    */
+    // red card signifies a loss
+    // black card signifies a gain
+    
+    /*
+    * Decks B and D
+    */
+    // sometimes get a red card with no associated loss (red has no meaning)
+    
+    
+    loss: {
+      A: [0,0,150,0,300,0,200,0,250,350,
+          0,350,0,250,200,0,300,150,0,0,
+          0,300,0,350,0,200,250,150,0,0,
+          350,200,250,0,0,0,150,300,0,0],
+      B: [-1,-1,0,-1,0,-1,0,0,1250,0, 
+          -1,-1,0,1250,0,-1,-1,0,0,0,
+          1250,0,-1,-1,0,-1,0,-1,0,0,
+          -1,1250,0,-1,0,-1,0,-1,0,0],
+      C: [0,0,50,0,50,0,50,0,50,50, 
+          0,25,75,0,0,0,25,75,0,50, 
+          0,0,0,50,25,50,0,0,75,50,
+          0,0,0,25,25,0,75,0,50,75],
+      D: [-1,0,-1,0,0,-1,-1,0,0,250,
+          -1,-1,0,0,-1,0,0,0,-1,250,
+          0,-1,0,0,-1,-1,-1,0,250,0,
+          0,-1,0,-1,250,-1,0,0,-1,0] 
+    }
+  }]
+  
+parent.parent.earnings = 2000
+parent.parent.borrowed = 0
+
+Trial.set_timer(function(){
+  Trial.submit();
+},0);
+</script>

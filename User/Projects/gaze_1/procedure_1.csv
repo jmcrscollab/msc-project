@@ -1,4 +1,4 @@
-item,code,max time,text,shuffle 1,weight,freeview_image,
+item,trial type,max time,text,shuffle 1,weight,freeview_image,
 0,instruct,user,"<span style='font-size:20px'>Thank you for participating - you are about to start an eye-tracking task. <br><br>
  In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>
  After this we will present you with pairs of images. You can look wherever you like on the screen.
