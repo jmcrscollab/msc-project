@@ -302,7 +302,7 @@
           null
         ],
         [
-          "mce_6",
+          "mce_5",
           "5. Was your mother or stepmother: <br> Often or very often pushed, grabbed, slapped, or had something thrown at her? Or <br> Sometimes, often, or very often kicked, bitten, hit with a fist or something hard? Or <br> Ever repeatedly hit over at least a few minutes or threatened with a gun or knife?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
@@ -315,7 +315,7 @@
           null
         ],
         [
-          "mce_7",
+          "mce_6",
           "6. How frequently did anyone in your household drink too much alcohol?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
@@ -328,7 +328,7 @@
           null
         ],
         [
-          "mce_7a",
+          "mce_6a",
           "If yes to above, Which members of your household drank too much?",
           "checkbox",
           "Parent|Sibling|Aunt/Uncle|Grandparent|Other",
@@ -341,7 +341,7 @@
           null
         ],
         [
-          "mce_8",
+          "mce_7",
           "7. How frequently did anyone in your household do street-drugs?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
@@ -354,7 +354,7 @@
           null
         ],
         [
-          "mce_8a",
+          "mce_7a",
           "If yes to above, Which members of your household did street drugs?",
           "checkbox",
           "Parent|Sibling|Aunt/Uncle|Grandparent|Other",
@@ -367,7 +367,7 @@
           null
         ],
         [
-          "mce_9",
+          "mce_8",
           "8. How frequently was a household member struggling with mental health problems such as depression, anxiety or psychosis?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
@@ -380,7 +380,7 @@
           null
         ],
         [
-          "mce_10",
+          "mce_9",
           "9. How frequently did household members have legal problems?",
           "likert",
           "Never True|Rarely True|Sometimes True|Often True|Very Often True",
@@ -393,15 +393,15 @@
           null
         ],
         [
-          "mce_5",
-          "10. Was a family member ever lost to you through divorce, abandonment, or other reason?",
+          "mce_10",
+          "10. How often was a family member absent through divorce, abandonment, or other reason?",
           "likert",
-          "No|Yes",
-          "0|1",
-          "0|4",
+          "Never True|Rarely True|Sometimes True|Often True|Very Often True",
+          "0|1|2|3|4",
+          "0|1|2|3|4",
           "No",
           "100px",
-          "VALUE OF 4 AS IT IS EXTREME!",
+          "",
           null,
           null
         ],
@@ -430,7 +430,8 @@
           "optional",
           "btn_width",
           "original value",
-          ""
+          "",
+          null
         ],
         [
           "Instructions1",
@@ -442,7 +443,8 @@
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "sm1",
@@ -453,8 +455,9 @@
           "1|2|3|4|5|6",
           "No",
           "",
-          "",
-          ""
+          "NEED OTHER",
+          "OPTION",
+          null
         ],
         [
           "sm2",
@@ -465,8 +468,9 @@
           "1|2|3|4|5|6",
           "No",
           "",
-          "",
-          ""
+          "NEED OTHER",
+          "OPTION",
+          null
         ],
         [
           "Instructions2",
@@ -478,7 +482,8 @@
           "",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "recoded1",
@@ -490,7 +495,8 @@
           "No",
           "100px",
           "sn24",
-          ""
+          "",
+          null
         ],
         [
           "recoded2",
@@ -502,7 +508,8 @@
           "No",
           "100px",
           "sn1",
-          ""
+          "",
+          null
         ],
         [
           "recoded3",
@@ -514,7 +521,8 @@
           "No",
           "100px",
           "sn14",
-          ""
+          "",
+          null
         ],
         [
           "recoded4",
@@ -526,7 +534,8 @@
           "No",
           "100px",
           "sn7",
-          ""
+          "",
+          null
         ],
         [
           "recoded5",
@@ -538,7 +547,8 @@
           "No",
           "100px",
           "sn11",
-          ""
+          "",
+          null
         ],
         [
           "recoded6",
@@ -550,7 +560,8 @@
           "No",
           "100px",
           "sn5",
-          ""
+          "",
+          null
         ],
         [
           "recoded7",
@@ -562,7 +573,8 @@
           "No",
           "100px",
           "sn10",
-          ""
+          "",
+          null
         ],
         [
           "recoded8",
@@ -574,7 +586,8 @@
           "No",
           "100px",
           "sn3",
-          ""
+          "",
+          null
         ],
         [
           "recoded9",
@@ -586,7 +599,8 @@
           "No",
           "100px",
           "sn19",
-          ""
+          "",
+          null
         ],
         [
           "recoded10",
@@ -598,7 +612,8 @@
           "No",
           "100px",
           "sn8",
-          ""
+          "",
+          null
         ],
         [
           "recoded11",
@@ -610,7 +625,8 @@
           "No",
           "100px",
           "sn21",
-          ""
+          "",
+          null
         ],
         [
           "recoded12",
@@ -622,7 +638,8 @@
           "No",
           "100px",
           "sn12",
-          ""
+          "",
+          null
         ],
         [
           "recoded13",
@@ -634,7 +651,8 @@
           "No",
           "100px",
           "sn23",
-          ""
+          "",
+          null
         ],
         [
           "recoded14",
@@ -646,7 +664,8 @@
           "No",
           "100px",
           "sn9",
-          ""
+          "",
+          null
         ],
         [
           "recoded15",
@@ -658,7 +677,8 @@
           "No",
           "100px",
           "sn15",
-          ""
+          "",
+          null
         ],
         [
           "recoded16",
@@ -670,7 +690,8 @@
           "No",
           "100px",
           "sn26",
-          ""
+          "",
+          null
         ],
         [
           "recoded17",
@@ -682,7 +703,8 @@
           "No",
           "100px",
           "sn25",
-          ""
+          "",
+          null
         ],
         [
           "recoded18",
@@ -694,7 +716,8 @@
           "No",
           "100px",
           "sn2",
-          ""
+          "",
+          null
         ],
         [
           "recoded19",
@@ -706,7 +729,8 @@
           "No",
           "100px",
           "sn18",
-          ""
+          "",
+          null
         ],
         [
           "recoded20",
@@ -718,7 +742,8 @@
           "No",
           "100px",
           "sn27",
-          ""
+          "",
+          null
         ],
         [
           "recoded21",
@@ -730,7 +755,8 @@
           "No",
           "100px",
           "sn6",
-          ""
+          "",
+          null
         ],
         [
           "recoded22",
@@ -742,7 +768,8 @@
           "No",
           "100px",
           "sn13",
-          ""
+          "",
+          null
         ],
         [
           "recoded23",
@@ -754,7 +781,8 @@
           "No",
           "100px",
           "sn17",
-          ""
+          "",
+          null
         ],
         [
           "recoded24",
@@ -766,7 +794,8 @@
           "No",
           "100px",
           "sn22",
-          ""
+          "",
+          null
         ],
         [
           "recoded25",
@@ -778,7 +807,8 @@
           "No",
           "100px",
           "sn4",
-          ""
+          "",
+          null
         ],
         [
           "recoded26",
@@ -790,7 +820,8 @@
           "No",
           "100px",
           "sn20",
-          ""
+          "",
+          null
         ],
         [
           "recoded27",
@@ -802,7 +833,8 @@
           "No",
           "100px",
           "sn16",
-          ""
+          "",
+          null
         ],
         [
           "recoded28",
@@ -814,9 +846,11 @@
           "No",
           "",
           "sn28",
+          null,
           null
         ],
         [
+          null,
           null,
           null,
           null,
@@ -983,337 +1017,152 @@
           "values",
           "score: mce_total",
           "optional",
+          "btn_width",
           "side_text",
           null
         ],
         [
           "Instructions1",
-          "<span style='color:#006699'><span style='font-size:20px'>For the following items, please reply from 0 (not at all like me)to 5 (very much like me) </span></span>",
+          "<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> We would like to ask you  some questions about your emotional life, in particular, how you control (that is, regulate and manage) your emotions. The questions below involve two distinct aspects of your <b><u> emotional experience </b></u>, or what you feel like inside. The other is your <b><u>emotional expression </b></u>, or how you show your emotions in the way you talk, gesture, or behave. Although some of the following questions may seem similar to one another, they differ in important ways.  </span></span>",
           "instruct",
           "",
           "",
           "",
           "",
           "",
+          "",
           null
         ],
         [
-          "pni1",
-          "1. I can usually talk my way out of anything.",
+          "ERQ1",
+          "When I want to feel more positive emotion (such as joy or amusement), I change what I'm thinking about",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni2",
-          "2. When people don’t notice me, I start to feel bad about myself.",
+          "ERQ2",
+          "I keep my emotions to myself.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni3",
-          "3. I often hide my needs for fear that others will see me as needy and desperate.",
+          "ERQ3",
+          "When I want to feel less negative emotion (such as sadness or anger), I change what I'm thinking about.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni4",
-          "4. I can make anyone believe anything I want them to.",
+          "ERQ4",
+          "When I am feeling positive emotions, I am careful not to express them.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni5",
-          "5. I get annoyed by people who are not interested in what I say or do.",
+          "ERQ5",
+          "When I'm faced with a stressful situation, I make myself think about it in a way that helps me stay calm.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni6",
-          "6. I find it easy to manipulate people.",
+          "ERQ6",
+          "I control my emotions by not expressing them.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni7",
-          "7. Sometimes I avoid people because I’m concerned that they’ll disappoint me.",
+          "ERQ7",
+          "When I want to feel more positive emotion, I change the way I'm thinking about the situation.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni8",
-          "8. I typically get very angry when I’m unable to get what I want from others.",
+          "ERQ8",
+          "I control my emotions by changing the way I think about the situation I'm in.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni9",
-          "9. When others don’t meet my expectations, I often feel ashamed about what I wanted.",
+          "ERQ9",
+          "When I am feeling negative emotions, I make sure not to express them.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni10",
-          "10. I feel important when others rely on me.",
+          "ERQ10",
+          "When I want to feel less negative emotion, I change the way I'm thinking about the situation.",
           "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
+          "1|2|3|4|5|6|7",
           "No",
-          "Not at all like me|Very much like me",
+          "50px",
+          "Strongly disagree|Strongly agree",
           null
         ],
         [
-          "pni11",
-          "11. I can read people like a book.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni12",
-          "12. Sacrificing for others makes me the better person.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni13",
-          "13. I often fantasize about accomplishing things that are probably beyond my means.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni14",
-          "14. Sometimes I avoid people because I’m afraid they won’t do what I want them to do.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni15",
-          "15. It’s hard to show others the weaknesses I feel inside.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni16",
-          "16. It’s hard to feel good about myself unless I know other people admire me.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni17",
-          "17. I often fantasize about being rewarded for my efforts.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni18",
-          "18. I am preoccupied with thoughts and concerns that most people are not interested in me.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni19",
-          "19. I like to have friends who rely on me because it makes me feel important.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni20",
-          "20. Sometimes I avoid people because I’m concerned they won’t acknowledge what I do for them.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni21",
-          "21. It’s hard for me to feel good about myself unless I know other people like me.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni22",
-          "22. It irritates me when people don’t notice how good a person I am.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni23",
-          "23. I will never be satisfied until I get all that I deserve.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni24",
-          "24. I try to show what a good person I am through my sacrifices.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni25",
-          "25. I often fantasize about performing heroic deeds.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni26",
-          "26. I often fantasize about being recognized for my accomplishments.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni27",
-          "27. I can’t stand relying on other people because it makes me feel weak.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          "pni28",
-          "28. When others get a glimpse of my needs, I feel anxious and ashamed.",
-          "likert",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "0|1|2|3|4|5",
-          "No",
-          "Not at all like me|Very much like me",
-          null
-        ],
-        [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
           null
         ]
       ],
@@ -1354,7 +1203,7 @@
           "No",
           "100px",
           "Reversed",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1367,7 +1216,7 @@
           "No",
           "100px",
           "",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1380,7 +1229,7 @@
           "No",
           "100px",
           "",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1393,7 +1242,7 @@
           "No",
           "100px",
           "Reversed",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1406,7 +1255,7 @@
           "No",
           "100px",
           "Reversed",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1419,7 +1268,7 @@
           "No",
           "100px",
           "Reversed",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1432,7 +1281,7 @@
           "No",
           "100px",
           "",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -1445,7 +1294,7 @@
           "No",
           "100px",
           "",
-          "100px",
+          "150px",
           null
         ],
         [
@@ -2349,6 +2198,129 @@
           null,
           null,
           null,
+          null
+        ]
+      ],
+      "emotion_regulation.csv": [
+        [
+          "item_name",
+          "text",
+          "type",
+          "answers",
+          "values",
+          "score: mce_total",
+          "optional",
+          "btn_width",
+          ""
+        ],
+        [
+          "Instructions1",
+          "<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> We would like to ask you  some questions about your emotional life, in particular, how you control (that is, regulate and manage) your emotions. The questions below involve two distinct aspects of your <b><u> emotional experience </b> </u></span></span>",
+          "instruct",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PHQ9_1",
+          "1. Little interest or pleasure in doing things?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_2",
+          "2. Feeling down, depressed, or hopeless?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_3",
+          "3. Trouble falling or staying asleep, or sleeping too much?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_4",
+          "4. Feeling tired or having little energy?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_5",
+          "5. Poor appetite or overeating?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_6",
+          "6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_7",
+          "7. Trouble concentrating on things, such as reading the newspaper or watching the television?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "PHQ9_8",
+          "8. Moving or speaking so slowly that other people could have noticed? <br> Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?",
+          "likert",
+          " Not at all|Several days|More than half the days|Nearly every day",
+          "0|1|2|3",
+          "0|1|2|3",
+          "No",
+          "100px",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
           null
         ]
       ]
@@ -3259,7 +3231,8 @@
           "Optional",
           "Values",
           "side_by_side",
-          "btn_width"
+          "btn_width",
+          null
         ],
         [
           "Gender",
@@ -3269,7 +3242,8 @@
           "No",
           "",
           "yes",
-          "100px"
+          "100px",
+          null
         ],
         [
           "Age",
@@ -3279,7 +3253,8 @@
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Education",
@@ -3289,7 +3264,8 @@
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "English_Fluency",
@@ -3299,7 +3275,8 @@
           "No",
           "",
           "yes",
-          "200px"
+          "200px",
+          null
         ],
         [
           "English_Age",
@@ -3309,7 +3286,8 @@
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Country",
@@ -3319,7 +3297,8 @@
           "No",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
           "Handedness",
@@ -3329,7 +3308,8 @@
           "No",
           "",
           "yes",
-          "100px"
+          "100px",
+          null
         ],
         [
           "ethnicity",
@@ -3339,10 +3319,12 @@
           "Yes",
           "",
           "",
-          ""
+          "",
+          null
         ],
         [
-          ""
+          "",
+          null
         ]
       ],
       "empathy_quotient_40.csv": [
