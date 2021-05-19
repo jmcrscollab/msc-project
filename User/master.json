@@ -4050,8 +4050,7 @@
           "Answers",
           "Values",
           "Optional",
-          "side_by_side",
-          null
+          "side_by_side"
         ],
         [
           "Instructions1",
@@ -4060,8 +4059,7 @@
           "",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
           "Info_Accept",
@@ -4070,12 +4068,10 @@
           "Agree",
           "1",
           "No",
-          "yes",
-          null
+          "yes"
         ],
         [
-          "",
-          null
+          ""
         ]
       ],
       "info_sheet_uor.csv": [
