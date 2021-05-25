@@ -1271,7 +1271,9 @@ function process_freeview_image_file(){
 
 //check if the freeview file matches one of the stimuli files
 if(typeof(parent.parent.project_json.all_stims[freeview_image_file]) !== "undefined"){
-  var freeview_contents = parent.parent.project_json.all_stims[freeview_image_file];
+  var freeview_contents = Papa.parse(parent.parent.project_json.all_stims[freeview_image_file]).data;
+  console.log("freeview_contents");
+  console.log(freeview_contents);
   var freeview_clean    = freeview_contents.map(function(row){
     return row.filter(item => item !== null);
   });
@@ -1333,6 +1335,8 @@ function freeviewStart() {
  
   document.body.style.cursor = 'none';
  
+  console.log("tFreeview");
+  console.log(tFreeview);
  
   image_pair = tFreeview.stimuli.shift();
  
@@ -1344,8 +1348,13 @@ function freeviewStart() {
   switch(parent.parent.Project.get_vars.platform){
     case "preview":
     case "localhost":
-      left_image = "../../" + left_image;
-      right_image = "../../" + right_image;
+      var org_repo = parent.parent.project_json.location.split("/");
+      var home_dir = parent.parent.Collector.electron.git.locate_repo({
+        org: org_repo[0],
+        repo: org_repo[1]
+      });
+      left_image  = home_dir + left_image.replace("../User","/User");
+      right_image = home_dir + right_image.replace("../User","/User");
       break;
   }
  
