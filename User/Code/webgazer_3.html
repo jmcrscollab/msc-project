@@ -1308,8 +1308,19 @@ function freeviewStart() {
     data_current.condition = 'view_' + left_image + '_' + right_image;
  
     cam.recording = 1;
+    status = 'fixation_flash_first_half';
+    $('#stimuli_fixation').css("color","red");
     setTimeout(function(){
-      status = 'fixation_flash';
+      $('#stimuli_fixation').css("color","black");
+    }, 250);
+    setTimeout(function(){
+      $('#stimuli_fixation').css("color","red");
+    }, 500);
+    setTimeout(function(){
+      $('#stimuli_fixation').css("color","black");
+    }, 750);
+    setTimeout(function(){
+      status = 'fixation_flash_second_half';
       $('#stimuli_fixation').css("color","red");
     }, 1000);
     setTimeout(function(){
@@ -1324,10 +1335,8 @@ function freeviewStart() {
     setTimeout(function(){
       $('#stimuli_fixation').hide();
       status = 'fixation_offset';
-           
     }, 2000);
     setTimeout(function(){
-     
       all_fixation_rts.push()
       freeviewShow();
     },2500);
