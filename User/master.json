@@ -234,6 +234,7 @@
           "btn_width",
           "logic",
           "checkbox_",
+          "other",
           null
         ],
         [
@@ -246,6 +247,7 @@
           "",
           "",
           "",
+          null,
           null,
           null
         ],
@@ -260,6 +262,7 @@
           "100px",
           "",
           null,
+          null,
           null
         ],
         [
@@ -272,6 +275,7 @@
           "No",
           "100px",
           "",
+          null,
           null,
           null
         ],
@@ -286,6 +290,7 @@
           "100px",
           "",
           null,
+          null,
           null
         ],
         [
@@ -298,6 +303,7 @@
           "No",
           "100px",
           "",
+          null,
           null,
           null
         ],
@@ -312,6 +318,7 @@
           "100px",
           "",
           null,
+          null,
           null
         ],
         [
@@ -325,19 +332,21 @@
           "100px",
           "LOGIC REQUIRED",
           "use checkbox",
+          null,
           null
         ],
         [
           "mce_6a",
           "If yes to above, Which members of your household drank too much?",
           "checkbox",
-          "Parent|Sibling|Aunt/Uncle|Grandparent|Other",
+          "Parent|Sibling|Aunt/Uncle|Grandparent",
           "0|1|2|3|4",
           "0|1|2|3|4",
           "Yes",
           "",
           "",
           "",
+          "yes",
           null
         ],
         [
@@ -351,19 +360,21 @@
           "100px",
           "LOGIC REQUIRED",
           "use checkbox",
+          null,
           null
         ],
         [
           "mce_7a",
           "If yes to above, Which members of your household did street drugs?",
           "checkbox",
-          "Parent|Sibling|Aunt/Uncle|Grandparent|Other",
+          "Parent|Sibling|Aunt/Uncle|Grandparent",
           "0|1|2|3|4",
           "0|1|2|3|4",
           "Yes",
           "",
           "",
           "",
+          "yes",
           null
         ],
         [
@@ -376,6 +387,7 @@
           "No",
           "100px",
           "",
+          null,
           null,
           null
         ],
@@ -390,6 +402,7 @@
           "100px",
           "",
           null,
+          null,
           null
         ],
         [
@@ -403,9 +416,11 @@
           "100px",
           "",
           null,
+          null,
           null
         ],
         [
+          null,
           null,
           null,
           null,
