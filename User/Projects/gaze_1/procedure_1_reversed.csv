@@ -6,9 +6,9 @@ item,survey,name,max time,text,shuffle 1,weight,freeview_image_file,code,calibra
  In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>
  After this we will present you with pairs of images. You can look wherever you like on the screen.
  </span>",off,1,,instruct,,,,,,,,,,,,,,,,,
-0,,webgazer,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,gaze_pairs_a_sn_r1.csv,webgazer_3,no,13,freeview,no,300px,400px,,1000,40,-300px,300px,1100px,400px,off,,image_1,
+0,,webgazer,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,gaze_pairs_a_sn_r1.csv,webgazer_3,no,13,freeview,no,300px,400px,,5000,40,-300px,300px,1100px,400px,off,,image_1,
 0,,instruct,user,Please take a break before starting the second half of the eyetracking task.,off,1,,instruct,,,,,,,,,,,,,,,,,
-0,,webgazer,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,gaze_pairs_a_sn_r2.csv,webgazer_3,no,13,freeview,no,300px,400px,,1000,40,-300px,300px,1100px,400px,off,,image_1,
+0,,webgazer,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,1,gaze_pairs_a_sn_r2.csv,webgazer_3,no,13,freeview,no,300px,400px,,5000,40,-300px,300px,1100px,400px,off,,image_1,
 0,modified_childhood_experiences.csv,childhood_experiences,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,barratt-impulsiveness.csv,impulsiveness,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,pathological_narcissism.csv,narcissism,user,,off,1,,survey,,,,,,,,,,,,,,,,,
