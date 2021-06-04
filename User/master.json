@@ -3974,8 +3974,7 @@
           "answers",
           "values",
           "optional",
-          "side_by_side",
-          null
+          "side_by_side"
         ],
         [
           "Instructions1",
@@ -3984,12 +3983,10 @@
           "",
           "",
           "",
-          "",
-          null
+          ""
         ],
         [
-          "",
-          null
+          ""
         ]
       ]
     }
