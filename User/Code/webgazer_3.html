@@ -938,6 +938,7 @@ function saveData() {
     row.screen_height = screen.height;
     row.window_width  = window.innerWidth;
     row.window_height = window.innerHeight;
+    row.participant   = parent.parent.$("#participant_code").val(),
     row.trial_no      = sub_trial_no;
    
     if(valid_rows > 19){
