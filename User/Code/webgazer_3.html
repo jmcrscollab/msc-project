@@ -965,7 +965,6 @@ function saveData() {
   sendData();
 }
 
-
 function sendData() {
 
   var sub_trial_no = -1;
@@ -999,33 +998,6 @@ function sendData() {
               sub_trial_no                             + ".csv",
             Papa.unparse(data[trial_no].raw)
           );
-                                     
-                                      /*
-                                     
-                                      error above
-                                     
-                                      */
-                                     
-                                     
-                                     
-           parent.parent.online_save(parent.parent.Project.get_vars.location,
-                    parent.parent.$("#participant_code").val() +
-                      gaze_phase +
-                      "-" +
-                      trial_no +
-                      "-" +
-                      sub_trial_no,
-                      "-trial-" +
-                      parent.parent.project_json.trial_no +
-                      "-" +
-                      trial_no,
-                    parent.parent.$("#completion_code").val(),
-                    parent.parent.$("#prehashed_code").val(),  
-                    Papa.unparse(data[trial_no].raw),          //the data
-          save_script.split("|"),
-          function(){
-            parent.parent.online_data_obj.saves_ended ++;
-          });
           data[trial_no] = null;
         }
       });
