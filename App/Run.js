@@ -44,7 +44,7 @@ Project = {
     "get_htmls",
     "get_gets",
     "start_restart",
-    "start_study",
+    "start_project",
     "select_condition",
     "full_screen",
     "create_project_json_variables",
@@ -54,7 +54,7 @@ Project = {
     "insert_start",
     "insert_end_checks",
     "shuffle_start_exp",
-    "buffer_trials",
+    "buffer_phases",
     "process_welcome"
   ],
   resume    : false,
@@ -92,7 +92,7 @@ Project = {
     return "server";
   }
   },
-  finish_trial: function(go_to_info){
+  finish_phase: function(go_to_info){
     trial_end_ms = (new Date()).getTime();
     trial_inputs = {};
     $("#experiment_progress").css("width",(100 * project_json.trial_no/(project_json.parsed_proc.length-1))+"%");
@@ -299,37 +299,46 @@ Project = {
     * Need to detect whether localhost and on mac
     */
 
-
+    var home_dir;
+    var org_repo = project_json
+      .location
+      .split("/");
     if(
       typeof(Collector.electron) !== "undefined" &&
       window.navigator.platform.toLowerCase().indexOf("mac") !== -1
     ){
-      var home_dir = Collector
+       home_dir = Collector
         .electron
-        .fs
-        .home_dir();
+        .git
+        .locate_repo({
+          org:  org_repo[0],
+          repo: org_repo[1]
+        });
         this_trialtype = this_trialtype.replaceAll(
           "../User/",
           home_dir + "/User/"
         );
     } else if(Project.is_exe){
-      var home_dir = Collector
+      home_dir = Collector
         .electron
-        .fs
-        .home_dir();
+        .git
+        .locate_repo({
+          org:  org_repo[0],
+          repo: org_repo[1]
+        });
       this_trialtype = this_trialtype.replaceAll(
         "../User/",
         home_dir + "/User/"
       );
     }
-  return this_trialtype;
+    return this_trialtype;
   },
 
-  go_to(new_trial_no,proc_no){
+  go_to: function(new_trial_no,proc_no){
     if(typeof(proc_no) == "undefined"){
       proc_no = 0;
     }
-    Project.finish_trial([new_trial_no - 1, proc_no]);
+    Project.finish_phase([new_trial_no - 1, proc_no]);
 
   },
 
@@ -342,7 +351,7 @@ Project = {
       var trial_no    = project_json.trial_no;
       for(var index = trial_no; index < trial_no + this_buffer; index++){
         write_phase_iframe(index);
-      };
+      }
     }
   if(typeof(project_json.responses[project_json.trial_no]) == "undefined"){
   project_json.responses[project_json.trial_no] = {};
@@ -352,16 +361,16 @@ Project = {
   var this_post_iframe = $("#trial"+project_json.trial_no).contents().children().find("iframe").filter(function(element){
          return element == project_json.post_no;
   })[0];
-  this_post_iframe.style["visibility"] = "visible";
+  this_post_iframe.style.visibility = "visible";
 
       /*
       * apply zoom
       */
       var these_iframes = document
-                          .getElementById("trial" + project_json.trial_no)
-                          .contentWindow
-                          .document
-                          .getElementsByClassName("post_iframe");
+        .getElementById("trial" + project_json.trial_no)
+        .contentWindow
+        .document
+        .getElementsByClassName("post_iframe");
 
 
       $("#trial" + project_json.trial_no)
@@ -386,9 +395,9 @@ Project = {
           ")";
 
           if(isFirefox){
-            this_iframe_style.width  = window.innerWidth / parent.parent.current_zoom
-            this_iframe_style.height = window.innerHeight / parent.parent.current_zoom
-            this_iframe_style.transformOrigin = "left top"
+            this_iframe_style.width  = window.innerWidth / parent.parent.current_zoom;
+            this_iframe_style.height = window.innerHeight / parent.parent.current_zoom;
+            this_iframe_style.transformOrigin = "left top";
           } else {
             this_iframe_style.width  = "100%";
             this_iframe_style.height = "100%";
@@ -408,25 +417,26 @@ Project = {
       $("#trial"+project_json.trial_no).contents().find("#post"+project_json.post_no).contents().find("#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz").focus(); //or anything that no-one would accidentally create.
 
   //detect if max time exists and start timer
+  var post_val;
   if(project_json.post_no == 0){
-  var post_val = "";
+     post_val = "";
   } else {
-  post_val = "post "+project_json.post_no + " ";
+    post_val = "post "+project_json.post_no + " ";
   }
   if(typeof(project_json.parsed_proc[project_json.trial_no][post_val + "max time"]) == "undefined"){
-  max_time = "user";
+    max_time = "user";
   } else {
-  var max_time = project_json
-          .parsed_proc
-          [project_json.trial_no]
-          [post_val + "max time"];
+    var max_time = project_json
+      .parsed_proc
+      [project_json.trial_no]
+      [post_val + "max time"];
   }
   if(max_time !== "" & max_time.toLowerCase() !== "user"){
   var this_trial_no = project_json.trial_no;
   var this_post_no  = project_json.post_no;
         Project.trial_timer = new Collector.timer(function(){
           if(this_trial_no == project_json.trial_no && this_post_no == project_json.post_no){
-  Project.finish_trial();
+  Project.finish_phase();
   }
   },parseFloat(max_time) * 1000);
   }
@@ -454,7 +464,7 @@ Project = {
 * Functions
 */
 
-function buffer_trials(){
+function buffer_phases(){
   var this_buffer = project_json.this_condition.buffer;
   var trial_no    = project_json.trial_no;
   for(var index = trial_no; index < trial_no + this_buffer; index++){
@@ -556,7 +566,7 @@ function final_trial(){
     project_json.storage_scripts,
             function(returned_data){
               message_data = returned_data.split(" encrypted data = ");
-              if(message_data.length == 1){
+              if(message_data.indexOf("error") !== -1){
                 //retrieve researcher e-mail address
                 precrypted_data(project_json,"Problem encrypting: <b>"+ message_data +"</b>, we'll try again every 10 seconds, but in case it fails, please download and e-mail this file. What do you want to save this file as? (you will get this message each time we fail to e-mail your data to the researcher)");
                 setTimeout(function(){
@@ -1400,7 +1410,7 @@ function start_restart(){
   }
 }
 
-function start_study(){
+function start_project(){
   /*
   * Try to at least center the experiment window if the browser isn't maximised
   */
@@ -1465,15 +1475,15 @@ function start_study(){
   break;
   default:
   if(typeof(Project.get_vars.location) !== "undefined" && Project.get_vars.location !== ""){
-  if(Project.get_vars.location.indexOf("www.dropbox") !== -1){
-  get_location = Project.get_vars.location.replace("www.","dl.");
-  } else {
-  get_location = Project.get_vars.location;
-  }
-  $.get(get_location,function(this_project){
-  project_json = JSON.parse(this_project);
-  Project.activate_pipe();
-  });
+    if(Project.get_vars.location.indexOf("www.dropbox") !== -1){
+      get_location = Project.get_vars.location.replace("www.","dl.");
+    } else {
+      get_location = Project.get_vars.location;
+    }
+    $.get(get_location,function(this_project){
+      project_json = JSON.parse(this_project);
+      Project.activate_pipe();
+    });
   }
   break;
   }
@@ -1651,12 +1661,14 @@ $("body").css("margin","auto");
 //by qwerty at https://stackoverflow.com/questions/2116558/fastest-method-to-replace-all-instances-of-a-character-in-a-string
 String.prototype.replaceAll = function(str1, str2, ignore){
   return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
-}
+};
 
 /*
 * exports for testing
 */
-module.exports = {
-  clean_var:            clean_var,
-  clean_this_condition: clean_this_condition
+if(typeof(module) !== "undefined"){
+  module.exports = {
+    clean_var:            clean_var,
+    clean_this_condition: clean_this_condition
+  };
 }
