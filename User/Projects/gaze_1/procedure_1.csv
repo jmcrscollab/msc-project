@@ -16,7 +16,7 @@ item,survey,name,max time,text,shuffle 1,weight,freeview_image_file,code,calibra
 0,social_media_disorder.csv,social_networking,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,phq_9_adjusted.csv,depression,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,erq.csv,emotions,user,,off,1,,survey,,,,,,,,,,,,,,,,,
-0,adhd.csv,,user,,off,1,,survey,,,,,,,,,,,,,,,,,
+0,adhd.csv,adhd,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,demographics_jf1.csv,demographics,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,debrief_jf1.csv,debrief,user,,off,1,,survey,,,,,,,,,,,,,,,,,
 0,sources_of_support_jf1.csv,support,user,,off,1,,survey,,,,,,,,,,,,,,,,,
