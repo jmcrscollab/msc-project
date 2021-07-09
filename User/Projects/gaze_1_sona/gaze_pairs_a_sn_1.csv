@@ -1,4 +1,6 @@
 Task,Scrambled_Status,Name_1,Name_2,image_1,image_2,Random,Order,Target_Status_1,Target_Status_2,Category,Identifier,
+Clouds,x,Practice_Scrambled_1,Practice_Scrambled_2,../User/Pictures/Practice_Scrambled_1.png,../User/Pictures/Practice_Scrambled_2.png,0,0,x,x,Clouds,,
+Clouds,x,Practice_1,Practice_2,../User/Pictures/Practice_1.png,../User/Pictures/Practice_2.png,0,0,x,x,Clouds,,
 Alcohol,Scrambled,Location_4_Control_A_Scrambled,Location_4_Target_A_Scrambled,../User/Pictures/Alcohol/Scrambled_Location_4_Control_A.png,../User/Pictures/Alcohol/Scrambled_Location_4_Target_A.png,0.023865481,1,Control,Target,Location,,
 Social Networking,Unscrambled,Website_2_Control_SN,Website_2_Target_SN,../User/Pictures/Social_Networking/Website_2_Control_SN.png,../User/Pictures/Social_Networking/Website_2_Target_SN.png,0.026990945,2,Control,Target,Website,Marathon,
 Alcohol,Unscrambled,Unopened_1_Target_A,Unopened_1_Control_A,../User/Pictures/Alcohol/Unopened_1_Target_A.png,../User/Pictures/Alcohol/Unopened_1_Control_A.png,0.119666411,3,Target,Control,Unopened,Tools,

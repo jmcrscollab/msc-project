@@ -1,4 +1,6 @@
 Task,Scrambled_Status,Name_1,Name_2,image_1,image_2,Random,Order,Target_Status_1,Target_Status_2,Category,Identifier,
+Clouds,x,Practice_Scrambled_1,Practice_Scrambled_2,../User/Pictures/Practice_Scrambled_1.png,../User/Pictures/Practice_Scrambled_2.png,0,0,x,x,Clouds,,
+Clouds,x,Practice_1,Practice_2,../User/Pictures/Practice_1.png,../User/Pictures/Practice_2.png,0,0,x,x,Clouds,,
 Social Networking,Scrambled,Icon_1_Control_SN_Scrambled,Icon_1_Target_SN_Scrambled,../User/Pictures/Social_Networking/Scrambled_Icon_1_Control_SN.png,../User/Pictures/Social_Networking/Scrambled_Icon_1_Target_SN.png,0.898268979,80,Control,Target,Icon,,
 Alcohol,Unscrambled,Unopened_3_Target_A,Unopened_3_Control_A,../User/Pictures/Alcohol/Unopened_3_Target_A.png,../User/Pictures/Alcohol/Unopened_3_Control_A.png,0.978351557,79,Target,Control,Unopened,4_Drinks,
 Alcohol,Scrambled,Poured_4_Control_A_Scrambled,Poured_4_Target_A_Scrambled,../User/Pictures/Alcohol/Scrambled_Poured_4_Control_A.png,../User/Pictures/Alcohol/Scrambled_Poured_4_Target_A.png,0.595716622,78,Control,Target,Poured,,
