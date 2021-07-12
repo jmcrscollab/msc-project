@@ -30,5 +30,5 @@ recoded24,… regularly devoted no attention to people around you (e.g. family o
 recoded25,… felt the need to use social media more and more often?,likert,Yes|No,1|0,1,,,No,100px,sn4,,
 recoded26,… regularly hidden your social media use from others?,likert,Yes|No,1|0,1,,,No,100px,sn20,,
 recoded27,"… often not paid attention at school, while doing homework or at work because you were using social media?",likert,Yes|No,1|0,1,,,No,100px,sn16,,
-recoded28,"How long after you wake up do you check social media? Please enter an answer in MINUTES. <br> If you do NOT own any social media accounts, please enter 10000",number,,,,,1,No,,sn28,,
+recoded28,"How long after you wake up do you check social media? Please enter an answer in MINUTES. <br> If you do NOT use social media on a daily basis, please enter 10000",number,,,,,1,No,,sn28,,
 ,,,,,,,,,,,,
