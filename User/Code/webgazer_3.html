@@ -1005,29 +1005,27 @@ function sendData() {
     default:
       data.forEach(function(trial,trial_no){
         if (trial !== null){
-         parent.parent.online_save(parent.parent.Project.get_vars.location,
-          parent.parent.$("#participant_code").val() +
-            "-" + gaze_phase +
-            "-trial-" +
-            parent.parent.project_json.trial_no +
-            "-" +
-            trial_no +
-            "-" +
-            sub_trial_no,
+          var file_name = parent.parent.$("#participant_code").val() + "-" + gaze_phase + "-trial-" + parent.parent.project_json.trial_no + "-" + trial_no + "-" + sub_trial_no;
+          parent.parent.online_save(
+          parent.parent.Project.get_vars.location,
+          file_name,
           parent.parent.$("#completion_code").val(),
           parent.parent.$("#prehashed_code").val(),
-          
+          Papa.unparse(data[trial_no].raw),
           /*
-          * encrypt the data here
-          */
-          parent.parent.encrypt(
-            parent.parent.project_json.public_key,
-            Papa.unparse(data[trial_no].raw)          //the data  
+          JSON.stringify(
+            parent.parent.encrypt(
+              parent.parent.project_json.public_key,
+              Papa.unparse(data[trial_no].raw)          //the data  
+            )
           ),
-          save_script.split("|"),
+          */
+          parent.parent.project_json.storage_scripts,
           function(){
             parent.parent.online_data_obj.saves_ended ++;
-          });
+          },
+          "trial",
+          file_name);
           data[trial_no] = null;
         }
       });
