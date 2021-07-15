@@ -1,3 +1,3 @@
-name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,download_at_end,mobile,
-condition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,random,,Please type in a random series of 9 letters and numbers as your id (i.e. g7d45p0hr):,5,on,no,
-condition_2,this is a note,stimuli_2.csv,procedure_1_reversed.csv,off,,random,,Please type in a random series of 9 letters and numbers as your id (i.e. g7d45p0hr):,5,on,no,
+name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,download_at_end,mobile,zoom_check,
+condition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,random,,Please type in a random series of 9 letters and numbers as your id (i.e. g7d45p0hr):,5,on,no,no,
+condition_2,this is a note,stimuli_2.csv,procedure_1_reversed.csv,off,,random,,Please type in a random series of 9 letters and numbers as your id (i.e. g7d45p0hr):,5,on,no,no,
