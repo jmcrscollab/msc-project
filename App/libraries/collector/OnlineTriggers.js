@@ -27,7 +27,9 @@ function online_save(experiment_id,
 
 
 	//work your way through all the save scripts
-	function until_successful_script(script_list, data, after_function){
+	function until_successful_script(script_list,
+																	 data,
+																	 after_function){
 		if(script_list.length > 0){
 			var save_script_url = script_list.shift();
 
