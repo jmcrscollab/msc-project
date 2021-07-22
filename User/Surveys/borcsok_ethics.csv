@@ -1,4 +1,4 @@
-item_name,text,Type,Answers,Values,Optional,side_by_side,question_width,
+item_name,text,type,answers,values,optional,side_by_side,question_width,
 Instructions1,"<h2>School of Psychology</h2>
 
 <h5>Earley Gate, <br>
@@ -104,7 +104,7 @@ We are conducting research exploring eye movements when viewing neutral or pleas
 <p>Taking part in this study is completely voluntary; you may withdraw at any time without having to give any reason. Please feel free to ask any questions that you may have about this study at any point.</p>
 
 <h4>What if I have other questions? </h4>
-<p>If you have further questions about this study, please do not hesitate to contact the student experimenter or supervisors listed above.</p>",Instruct,,,,,,
+<p>If you have further questions about this study, please do not hesitate to contact the student experimenter or supervisors listed above.</p>",instruct,,,,,,
 info_questions,"I confirm that I have read the information sheet for this study. I have had the opportunity to consider the information, ask questions and have had these answered satisfactorily.",likert,Agree,1,No,yes,80%
 info_confidential,I understand that all personal information will remain confidential to the Investigator and arrangements for the storage and eventual disposal of any identifiable material have been made clear to me.,likert,Agree,1,No,yes,80%,
 info_voluntary,I understand that participation in this study is voluntary and that I can withdraw at any time without having to give an explanation.,likert,Agree,1,No,yes,80%,

@@ -1,4 +1,4 @@
-item_name,text,type,answers,values,score: mce_total,optional,btn_width,
+item_name,text,type,answers,values,score:mce_total,optional,btn_width,
 Instructions1,"<span style='color:#006699'><span style='font-size:20px'><b> INSTRUCTIONS </b> <br> We would like to ask you  some questions about your emotional life, in particular, how you control (that is, regulate and manage) your emotions. The questions below involve two distinct aspects of your <b><u> emotional experience </b> </u></span></span>",instruct,,,,,,
 PHQ9_1,1. Little interest or pleasure in doing things?,likert," Not at all|Several days|More than half the days|Nearly every day",0|1|2|3,0|1|2|3,No,100px,
 PHQ9_2,"2. Feeling down, depressed, or hopeless?",likert," Not at all|Several days|More than half the days|Nearly every day",0|1|2|3,0|1|2|3,No,100px,
