@@ -2718,7 +2718,7 @@
   },
   "trialtypes": {},
   "location": "forrest-haffey/msc-project/gaze_1_prolific",
-  "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,download_at_end,mobile,zoom_check,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,Thank you for participating - your completion code is 4022A952,Please type in your Prolific ID below:,5,on,no,no,\r\ncondition_2,this is a note,stimuli_1.csv,procedure_1_reversed.csv,off,,on,Thank you for participating - your completion code is 4022A952,Please type in your Prolific ID below:,5,on,no,no,",
+  "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,download_at_end,mobile,zoom_check,forward_at_end,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,Thank you for participating - your completion code is 4022A952,Please type in your Prolific ID below:,5,on,no,no,https://app.prolific.co/submissions/complete?cc=4022A952,\r\ncondition_2,this is a note,stimuli_1.csv,procedure_1_reversed.csv,off,,on,Thank you for participating - your completion code is 4022A952,Please type in your Prolific ID below:,5,on,no,no,https://app.prolific.co/submissions/complete?cc=4022A952,",
   "mods": {},
   "data_scripts": {
     "ocollector.org": "https://ocollector.org/StoreData9.php",
