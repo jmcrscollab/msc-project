@@ -1,6 +1,6 @@
 {
   "all_procs": {
-    "procedure_1.csv": "item,code,max time,text,shuffle 1,survey,\r\n2,survey,user,This is the start of a new experiment.,off,autism_quotient.csv,"
+    "procedure_1.csv": "item,phasetype,max time,text,shuffle 1,survey,\r\n2,survey,user,This is the start of a new experiment.,off,autism_quotient.csv,"
   },
   "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,",
   "all_stims": {
@@ -1366,6 +1366,9 @@
   "location": "forrest-haffey/msc-project/anthony_testing",
   "storage_scripts": {
     "https://nt906822.webs.act.reading.ac.uk/collector/ValidateUser.php": "https://nt906822.webs.act.reading.ac.uk/collector/StoreData_Cat_0.php"
+  },
+  "phasetypes": {
+    "survey": "[[[LOCATION]]]../Default/DefaultPhaseTypes/survey.html"
   },
   "procs_csv": {},
   "stims_csv": {}
