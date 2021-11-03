@@ -1,4 +1,4 @@
-item_name,text,type,answers,values,score: mce_total,optional,btn_width,reversed?,btn_width,
+item_name,text,type,answers,values,score:mce_total,optional,btn_width,reversed?,btn_width,
 Instructions1,"<span style='color:#006699'><span style='font-size:20px'>For the following items, please reply with 1 (rarely/never), 2 (occasionally), 3 (often) or 4 (almost always/always) </span></span>",instruct,,,,,,,,
 barratt1,1. I plan tasks carefully,date,Rarely/Never|Occasionally|Often|Almost always/Always,1|2|3|4,4|3|2|1,No,100px,Reversed,100px,
 barratt2,2. I do things without thinking,dropdown,Rarely/Never|Occasionally|Often|Almost always/Always,1|2|3|4,1|2|3|4,No,100px,,100px,

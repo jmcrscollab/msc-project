@@ -1,0 +1,7 @@
+item,phasetype,max_time,text,shuffle_1,
+0,instruct,user,This is the start of a new experiment.,off,
+2,stroop_example,user,Random 1,instruct_shuffle,
+3,stroop_example,user,Random 2,instruct_shuffle,
+4,stroop_example,user,Random 3,instruct_shuffle,
+5,stroop_example,user,Random 4,instruct_shuffle,
+0,instruct,user,This is the end,off,

@@ -1,0 +1,18 @@
+{
+  "all_procs": {
+    "procedure_1.csv": "item,phasetype,max_time,text,shuffle_1,\r\n0,instruct,user,This is the start of a new experiment.,off,\r\n2,stroop_example,user,Random 1,instruct_shuffle,\r\n3,stroop_example,user,Random 2,instruct_shuffle,\r\n4,stroop_example,user,Random 3,instruct_shuffle,\r\n5,stroop_example,user,Random 4,instruct_shuffle,\r\n0,instruct,user,This is the end,off,"
+  },
+  "conditions": "name,notes,stimuli,procedure,fullscreen,welcome,participant_id,end_message,start_message,buffer,scripts,\r\ncondition_1,You can put more detailed notes in this field,stimuli_1.csv,procedure_1.csv,off,,on,,,5,,",
+  "all_stims": {
+    "stimuli_1.csv": "cue,answer,letter_color,\r\nred,d,red,\r\nyellow,f,red,\r\nblue,g,green,\r\ngreen,h,blue,\r\n,,,"
+  },
+  "location": "jmcrscollab/msc-project/stroop_example",
+  "public_key": "jEfdMOI6qnw/CnAruzv2Ziy409nVIOShUPRiO+5EHhc=",
+  "surveys": {},
+  "phasetypes": {
+    "instruct": "[[[LOCATION]]]../Default/DefaultPhaseTypes/instruct.html",
+    "stroop_example": "[[[LOCATION]]]../User/PhaseTypes/stroop_example.html"
+  },
+  "procs_csv": {},
+  "stims_csv": {}
+}
