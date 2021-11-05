@@ -14,7 +14,7 @@ item,phasetype,max_time,text,shuffle_1,survey,weight,freeview_image_file,calibra
  In this task we will ask you to look at some dots to train the camera to know where your eyes are looking. <br><br>
  After this we will present you with pairs of images. You can look wherever you like on the screen.
  </span>",off,,1,,,,,,,,,,,,,,,,,,
-0,webgazer_3,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,,1,gaze_pairs_a_sn_1.csv,no,13,freeview,no,300px,400px,5000,42,-300px,300px,1100px,400px,off,image_1,,,
+0,webgazer_3,user,"Please look at the cross.<br />A pair of images will follow. You are free <br />to look at either image.<br /><br />Do not move your head, <br />only use your eyes.",off,,1,stimuli_2.csv,no,13,freeview,no,300px,400px,5000,10,-300px,300px,1100px,400px,off,image_1,,,
 0,survey,user,,off,ius_27.csv,1,,,,,,,,,,,,,,,,,,
 0,survey,user,,off,sticsa.csv,1,,,,,,,,,,,,,,,,,,
 0,instruct,user,This is the end of the experiment. You may close this window.,off,,1,,,,,,,,,,,,,,,,,,
